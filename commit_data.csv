@@ -1,0 +1,6161 @@
+Hash,Message,Parent Hashes,Is Merge Commit,Modified Files
+2322018875b218cc156f50d30d865a86d4a68a13,quick rgb-should-be-numpy-array bug fix,['c7389e008d3dc79f61e8270ff18758210b7e6a9e'],False,['mobject.py']
+7ae5a0eccb13713b3439d9c0a0b79bcfc96b05be,"Slightly faster sort_points method, and bug fix in fade",['7f45044bafb27c94ae1b3f900014b3fbdc612e5f'],False,['mobject.py']
+68160140233b8f7ebf00aa2894ea57984c504a90,Bug fix to bug fix on Mobject.fade method,['8f8eeea870c2f780cc93950a6de6bd6a168fcfb4'],False,['mobject.py']
+69be4328ce0a90a25758a7d158b8bc4ee973ce29,Small bug in how displayer had been refactored,['c16abfd6c80268e2656a95d566afb522aa6659ba'],False,['displayer.py']
+ff5075ce7d3db6381fb0e7e44f90af4b8ac47746,Couple scene bug fixes,['e45e20b5b0fc03cf60c2985d59a5b2883c714af1'],False,['scene.py']
+468303c30912618ceb84cafc9462c37da55b73fe,tuplify bug fix,['75c88375d9b09be6b3021b3b87ba424c51c74fe2'],False,['helpers.py']
+a9f620e2508cf9de4f5a405449673d4d50804d80,"Better interpolation, bezier subpaths, and color bugfix",['c685211484b50a900b2d97bca6f1ecf631ab1ab4'],False,"['camera.py', 'helpers.py', 'image_mobject.py', 'mobject.py', 'point_cloud_mobject.py', 'tex_mobject.py', 'vectorized_mobject.py']"
+ac137eb68393752637f63019c43976c3a5312a00,A few bug fixes to the very buggy SVGMobject,['fd5dc238394a658bb001759991ce677efcdc81b6'],False,"['borsuk.py', 'chapter1.py', 'mobject.py', 'svg_mobject.py', 'objects.py']"
+ab2b6c2ba4927a0478a216f76f0f7789cb39e29e,"3d stuff is still rudimentary, but slightly less buggy now",['c2eb3606844136a9f73dfe0bf98f84dd6ae02605'],False,['three_dimensions.py']
+8f4b1de8f119825a1b48f8aab6774fe2ad1d5eee,"add support of transform=""matrix(...)"" and fix bugs win lowercase commands",['109d2efb477fb5c1412fa6e707110cdf595e1fd0'],False,['svg_mobject.py']
+6ab2d5f3b26e077764f77f860c80dad3530f52d6,Some bug fixes associated with new copy method,['ff0c122d4d0aba1e4acaa81bffdc8ebe37a851dc'],False,"['tex_mobject.py', 'vectorized_mobject.py']"
+f47d7a03f391eb3bad4deb3a81dd105c4edff08f,Debugged problem with Scene.remove,['dc435e5aa3bc1270f9152c54b8034a054c26a7e0'],False,['scene.py']
+cce24ce93a545ccd90919a956f695d111460ba0d,Fixed Riemann rectangle gap bug,['e27e7f539fc3a1c1f249e17831300ea1abe4dc14'],False,"['chapter8.py', 'graph_scene.py']"
+f6340f42d7efe06c5436adfbca2723c1737b3022,Fixed bug associated with empty input strings,['c4b4acc69b6640acb36b8b4beaee04f3034670ed'],False,['tex_mobject.py']
+1c4da1c4e7e91698485cc40c2469c6d101f80fad,Arrow normal direction bug fix,['151914c1a2e445f697d8423c86f0fe7b4ef45884'],False,"['bell.py', 'geometry.py', 'waves.py']"
+36cb325e424fb0b85c4104115e0988febc2aabfc,Small bugfix on text_template.tex,['389f8c9c01205707b5c193cb9483262f327d6414'],False,['text_template.tex']
+cc1767718c9a1fa15d4001f35fe6e34d2e1218c6,NumberLine.apply_function bug fix,['dad04e89c91658d8c923701e570a7239e81df3ac'],False,['number_line.py']
+de0e156444f3a102801682ae2d13ed4a4f1d71a5,Slight alterations and bug fixes,['0ba007bf21867f2bfc63352470196de39f95da80'],False,['part1.py']
+3d9d3be1425b98dd943bea8b49f5f6a4f8af21a3,A few scene bug fixes,['de0e156444f3a102801682ae2d13ed4a4f1d71a5'],False,['scene.py']
+fae819695a80888b9c06b42ec3cae5b77155d6e3,There's some (as of yet unresolved) bug associated with fill colors when they become negative during an animation,['24d6c7bbef76131dc5cf5a85a6b1624447ccfcbc'],False,['camera.py']
+76ea80230d6137e4fe0852eda0e83b5489c7af84,Arrow bug fix,['6625e4ee16784d199df2c42a6d89e060a7ccb18a'],False,['geometry.py']
+3696ce748d55b2c5394aec2521f475c088787089,Fixed zoomed_scene bug,['d8c4021eec9fda8e4d500e4c77d8bf7851e14596'],False,['zoomed_scene.py']
+6de931968e292724c1907be3fa523d81c9326da0,Small bug fix,['f23fd5444da80408e4e22998ce3d5ccd610277c6'],False,['geometry.py']
+5d9eb8d5a0b3ef62aaeb17a53d90d43f16f36c64,Fixed get_merged_array bug,['ec1afdbb835890ed909268ffa6417e948fb78069'],False,"['mobject.py', 'point_cloud_mobject.py']"
+543d8cb92d42f560665f43423b850272c4e7c8ef,Fixed ChangingDecimal bug based on new scene+mobject structure,['024a9dd3d48659fe565709d35e8fa7fe7c8c47b7'],False,['numerals.py']
+38a1c654fc9e814a45b7f1dcb0c5fd2a3ee21670,Slight bug fix for behavior when scene adds mobject followed by a group containing that mobject,['1332ec9ed1d59955c6b6e4b2fb4af77fcc7f8346'],False,['scene.py']
+00713b7971b5056b53fe9dc6b4d7857e527bcad3,Fixed bug associated with continual_animations being removed accidentally,['b41e1fc562ab82033cbe0dd1e48d7afdcf91f033'],False,['scene.py']
+eb149bef2ea512d95770065cc7f1dc6f04d01674,Fixed the bug with negative 0 displaying,['0c30d31dfffff4f6e56c925d26fa120b6a323f32'],False,['numerals.py']
+78b660bb923ca5c990b8c163e61f582e4372a5f4,Fixed bug with creating image directories,['a28d13fc3e5f2791601eb111ff15f2b26a828b88'],False,['scene.py']
+e6df91d03e7ae8b714684f1e42c9720367b3ffa2,Small bug fix to foreground mobject behavior during an animation,['78b660bb923ca5c990b8c163e61f582e4372a5f4'],False,['scene.py']
+5f3c7749528aed8b637906188c2e9cc0724d8b8f,Fixed bug with how Brace gets created,['925e10396840ad968b8dda4a743c9001f575b0b3'],False,['tex_mobject.py']
+3c86caa48830119983ec49e31c861c88a2ccc443,Fixed bug with MappingCamera set to allow_object_intrusion,['730c94461f7393c93b4505753e11a56995bbbd4f'],False,['camera.py']
+932d056ff71c3c0505a6088fc0a7023780c7ac31,"Merge pull request #90 from 3b1b/mapping-camera-fix
+
+Fixed bug with MappingCamera set to allow_object_intrusion","['730c94461f7393c93b4505753e11a56995bbbd4f', '3c86caa48830119983ec49e31c861c88a2ccc443']",True,[]
+5718db026e2cdc23ada625bd0fc436c334d93ac0,bugfix: svg handling,['aa73cd65b1f7ed95a68e81f1476934d4b073bcdc'],False,['svg_mobject.py']
+55a723a2848c8ea666f3bb40b4482ae77bf2e6a8,"Fixed bugs in Succession and AnimationGroup, and also created purely virtual Container class from which both Scene and MObject derive (conceptually unifying their remove/add methods)",['ad14222d1cd94c82ed83cdf3dd782109fd543831'],False,"['simple_animations.py', 'mobject.py', 'scene.py']"
+10e76fd7d8e3def3cc594d1a300b1479d4b1b11d,"Merge pull request #94 from mirefek/master
+
+Several simple bugfixes and features","['24328374daa9c061c2874c149f800a8462f44ca2', 'bc23fbc3426a536aebb4a412ad6994cf89daf958']",True,[]
+c28b81a2307c032dd94f892cc86722766b355d8a,Fixed bug in set_background_by_color_function,['634b28c485c4408b4c48e3dd92bf5756985fad58'],False,['camera.py']
+ad5ffc5fdcfce9dbed916a539225ab41abcc19d3,"debugged existing scenes, working on BackToEulerSum",['fa481a1cb870a92d6c77f531feb278f08805dea9'],False,"['basel.py', 'light.py']"
+87b7635988715ac52057b0d2d949e4786156eee1,bug fix session with Grant,['ad5ffc5fdcfce9dbed916a539225ab41abcc19d3'],False,"['basel.py', 'mobject.py', 'light.py']"
+2c4fa36073f1e9da1223046cd24fc788d2652b12,bug fixes in light. Finally working again!,['8e0c84946f78ec9053a72ea37a4dd0d9119bc9cd'],False,['light.py']
+7871e557d2d5802806c72ab9b395e197e64ede8f,bug fixes,['4a11d8f42df09ac2860fce90aa2d50aa5fc2b103'],False,['light.py']
+b4b47c8439e7a9c2935f37f93fe88536f2e47467,Fixed Succession bug which had resulted in incompletely drawn subanimations,['b06e8818f4116a42c9059c9af719a192fce10b15'],False,['simple_animations.py']
+4982a44fb6e1dbd24a7afd6336dd43e13fa3b794,Fixed bug where nested AnimationGroups did not propagate configs correctly,['d509335210a0a228fe9c0072bab515d84ac0848c'],False,['simple_animations.py']
+c2b9417c6a84a699e10150967751a334c7b95ca0,Fixed division by zero bug in alpha compositing,['652dab7f232eacc8040471ac4118ffd53f562e99'],False,"['camera.py', 'helpers.py']"
+5e64508c40f0361059e682ef62f072aa93676ec2,"Merge pull request #133 from 3b1b/WindingNumber
+
+Fixed division by zero bug in alpha compositing","['652dab7f232eacc8040471ac4118ffd53f562e99', 'c2b9417c6a84a699e10150967751a334c7b95ca0']",True,[]
+9927f226453161431a8309cd53f5d33382208ab2,"Fixed small bug in Arc, where end and start were swapped in adding tips",['f7f359ffafd9e5cfcaa790892fec6597e88317b2'],False,['geometry.py']
+01737a0c4df2748f2f6218262beb40a3930c8d57,workaround for CTEX bug,['b7e2646b47e71bd05611354f5193a470104c95ed'],False,"['template.tex', 'text_template.tex']"
+c24f7b6926f0e3156009bfa34b60c3888271ee52,fixed pi creature color bug,['15d582e6730f7ef7e559431abdc568a9dd095e20'],False,['pi_creature.py']
+d9fde5141afc3e438cdd55d1ae67cd294816f548,"Merge pull request #200 from 3b1b/patreon-animation
+
+Fixed Pi Creature color bug","['39ba60c452553e8bac61d13989b1a085188ec548', 'c24f7b6926f0e3156009bfa34b60c3888271ee52']",True,[]
+5f2aa31fc3759668457d0e56203b75e6a3a21cd1,import bug in SampleSpaceScene,['487f6747e1e94d5eb044b0c856de7fecbc134ccf'],False,['sample_space_scene.py']
+43faec638e4f7aa944cf8e65521a72671f6f0f82,fix for copy bug (again),['e0ff0f2a9f46943b3e154fe9f07d9984f1782ff6'],False,['mobject.py']
+cc05a896dd18bbac9d25d3cc577388a371f9a15d,Fixed TeacherStudentScene bug,['aa67913f1527b2f019f35be1b0867e04d44b3732'],False,['pi_creature_scene.py']
+bb0595e3e77d2d130f6f260927741951403f9624,Small bug-fix to DashedLine to ensure get_end works right,['612f0d767432530f27c426a757d3bf9f32e13288'],False,['geometry.py']
+76e0f9019e52f8675b7f7608ab7f59b36f9075e7,Tiny bug fix to Laptop,['c983b914771899b244046a1ddcfab520ee258698'],False,['drawings.py']
+5f7810db832a2663c63ab8715a54e7dc6e483990,fixed unit color bug,['9c6bcd6653391418735af0394026f71fa8d4d895'],False,['numbers.py']
+c3c6e72d386d80a9082d69094d031aec72a7f87b,bug fixes in Histogram,['5f7810db832a2663c63ab8715a54e7dc6e483990'],False,['histograms.py']
+85808eb905c8e27151f06f81b72da6ae0242234d,bug in debugging method,['24276ff1f54e0efd3e67cecf780c279fe652776d'],False,"['chapter1.py', 'mobject.py']"
+90504e24e7df4b525865b0bf3084e0788cf2bfdb,fixed bug for reduce_across_dim for mobs with empty submobs,['fb9ce5f518a880fc9b7acb0d9a648a4880941f86'],False,['mobject.py']
+7ce5674126e48b72e44e6f38be507b09428eceb1,fixed bug for reduce_across_dimension for mobs with empty submobs,['fd002c13e6c310b0f2e90f6265825131750a7d37'],False,['mobject.py']
+a982b3c1acdf200e90057d94d798704a515a4c41,Some bug fixes to ZoomedScene,['2981fa2b32f0b3827317efc75df56c0585c6c0f0'],False,"['moving_camera_scene.py', 'zoomed_scene.py']"
+f0b8ae7647fcc50f09935fb8128b0fd3b27b9b32,"Refactoring and bug fixes to moving_camera, multi_camera, zoomed_scene mix",['2a74f3a687f629e1de793025accd029c093242f2'],False,"['moving_camera.py', 'multi_camera.py', 'moving_camera_scene.py', 'zoomed_scene.py']"
+692a2dfd1ff121ce60946fec675412a062965d95,Fixed bug for multipled braces being imbalanced,['c3e173d2812a9a1fe7e7b81731627492689f6e41'],False,['tex_mobject.py']
+60caf2312c84c0e010334e47c5187f3a3dd3a312,Quick fix to a bug where ImageMobjects of size zero weren't displayed,['6d032bd10f5c3414aec00e005261093ac43bb93d'],False,['camera.py']
+f4022d6c750d6cb54dc9f9612695ed9f99939a70,Fixed small bug with FadeInAndShiftFromDirection,['61d5f6f75908e77f4acb9864e98e25a2a59dbbe0'],False,['creation.py']
+fb08fc04011db183dac841e2df087ccbbc615a2c,Fixed bubble sort bug,['df5d45e5ae5a417dca8cb7d280cb1ad1e54b2aec'],False,"['drawings.py', 'vectorized_mobject.py', 'dandelin.py']"
+e11611d48216230522df66cbce947d5285ba5b90,Fixed bugs assoiated with setting fill or stroke using None arguments,['693c98cea77721265ed8966b6eab51cbdf60f486'],False,['vectorized_mobject.py']
+22d889f6dc6576bd2f3838f6ed699a7f71fdb600,Fixed some camera bugs,['e11611d48216230522df66cbce947d5285ba5b90'],False,"['camera.py', 'three_d_camera.py']"
+3f6376af39597ce885d4171b16cb49095a586d48,Fixed MovingCamera bug where frame was not updated properly,['5b5a83b3162ee938c00fdba8f58753b8a594f1e3'],False,"['camera.py', 'moving_camera.py']"
+3ba33d543e9443c339cc631844d0af9759b4f29e,Fixed some ThreeDCamera bugs,['b04bddf35b80e979f27fdac19757dbb10ab3750a'],False,"['camera.py', 'three_d_camera.py']"
+32da0771995d491a8dfed403931232f820063c29,Fixed bug associated with ThreeDVMobject,['cba0c78cf76f15c5e1b50bc48e5095c893609b88'],False,['three_dimensions.py']
+8103b723a83d3fb3dfd37a18804c7d97eb5aaced,Fixed bug with VMobject.close_new_points,['98a7f254ee57d0f0a34956f288eba35631da5ba6'],False,"['geometry.py', 'vectorized_mobject.py']"
+98801413e9ad6bbb6e7a0c6eec7000adaace5eaf,Fixed camera bugs,['86bc9cdf72793d5f523826603f03ffb6cc332c86'],False,"['camera.py', 'three_d_camera.py']"
+5fefa6f612ef7e723b1108d78df0784bcc3aa497,Small fixes to Scene bugs,['c3919d25abbd9abc152c2f148cb6550d583f4966'],False,"['scene.py', 'three_d_scene.py']"
+2e64edcffe4225561acebda86fc6c4e74ad68a04,Temporary bug fix on DecimalNumber...not fully figured out,['94b1c9d3af46b937a6455510bd575d08f1d2c283'],False,['numbers.py']
+289d822a9250f1b23524c2e8789bddeb65d6e3e7,Tiny bug fix,['9a8575401456910e387d650a2796b73848234524'],False,['numbers.py']
+1ca7e8ecdab08a3cc65fa8d50e5b34d15105e4a3,Fixed TextMobject bug,['c2e42c4281a660410e797ee4d12f524fb72f7701'],False,"['tex_mobject.py', 'strings.py']"
+81a906f6839b1fb16ca02665a4ab5d4eb10f0bc2,Fixed ImageMobject fade bug,['1ca7e8ecdab08a3cc65fa8d50e5b34d15105e4a3'],False,['image_mobject.py']
+71d5851dd00904b8f4ce41bab3fd01236677b95a,Fixed frame_center bug,['73af2b49717a564158ad343be1ee408bf71f3bf0'],False,['three_d_camera.py']
+426af6f7fce99f03c567d03011cff31cecb2d847,Tiny bug fix,['e8d2c714e5451cd782650125608ed5d16f1c0b3f'],False,['vectorized_mobject.py']
+8077697fc710db71e4e71864c4c94fcbf80ccc12,Fix video output directory bug,['31478c523c9febb85d673219c6451ce545b5e319'],False,['output_directory_getters.py']
+62b8a38bf51cd52a51a545dab55e917cd40a00f3,Fixed bug with Mobject family member updaters,['c95fb5fe46465840b1f64923a9f1d94737fc4514'],False,['scene.py']
+d12e45aa17e1965c7692d35b154919cd961d6659,"Merge pull request #333 from icreiuheciijc/pr
+
+Fix video output directory bug","['169c443e659c8021d3a8ae1855c0086eaa98515c', '7d5432ce8b98a309f9fbeea0995e9c03d2f1e875']",True,[]
+eca8d77f83431f2260b7dc279d8bed6443ba0cbd,Small bug fix for starting_animation_number,['a5e25042e2e95a6d474cca6566fc15a2611a8842'],False,['scene_file_writer.py']
+9619ebfd61c9818b5db829b1c56009c503c2c4e2,Fix ThreeDAxes bug,['b70e0a0c75eff3202089918cea8e638b26419536'],False,['coordinate_systems.py']
+47555652e8ec0c94a7665b9761e06485c525f2fb,Fixed no animations bug,['5d5fdef748eba6d8e7bc53166df988dedd5f1a2d'],False,['scene_file_writer.py']
+55081c75ef21e7c208ad96d9a1abfef11c93e86c,Fixed bugs in partial_bezier_points and integer_interpolate,['272c5f4deb471444e6f46cc45400c4f0766650d8'],False,['bezier.py']
+16e8a76c6a767d49a0ae39e2b94db9e4cc3bf8ad,Whoops!  Previous fix had its own bug.  Now it's fixed.,['5ca93b3fe7642645f683405faac192748b7d89d0'],False,['frame.py']
+47f6d6ba38d55d509bcee788ec310a90fb96237f,Rewrote ParametricFunction to have less buggy interpolation,['16e8a76c6a767d49a0ae39e2b94db9e4cc3bf8ad'],False,"['coordinate_systems.py', 'functions.py', 'vectorized_mobject.py', 'graph_scene.py', 'chapter3.py', 'chapter4.py', 'fourier.py', 'uncertainty.py']"
+84b07bc347e72f1bfdb76a1580cfa6f1d0b0d69a,Fixed Polygon.round_corners bug,['2449f3a284297638b916615c27ee25f2a0f151b9'],False,['geometry.py']
+72a8bd8cc11b4d56c2c3081ce74e53b838ea78e9,Fixed bug with VMobject.align_points,['28d627ba839b7a138a7ff797d42ca8b50b266879'],False,['vectorized_mobject.py']
+1f320a39748574c13f7a5a6cbcb37f23820fb976,Fixed small bug with Camera not properly transforming points,['82f0afb4dd6fad96d91bcfcd936610ccf33980d7'],False,"['camera.py', 'three_d_camera.py']"
+9f760632719d9492eaccf8f7428381de66813d93,Fix some bugs with VMobject.align_points,['8877a256f28dd572f04a176814c5597b7b4aa605'],False,['vectorized_mobject.py']
+1735f16d6844ae4a5946877167f492b199a1545c,Fixed NumberLine bug,['86d3ade0ef356d02bc232e509ae12b5b08568331'],False,"['coordinate_systems.py', 'number_line.py']"
+37164a640ea8a7f3be31b8e7b2d96986f276b5c6,Tiny bug fix to old_projects/clacks/question.py,['b2c7e83843f5de56f9bd5d84b721a435263e2256'],False,['question.py']
+f4c2c4642a4f1e812a9c9d0b88ce9f52387b721f,Fix bug with applying function to VectorizedPoint,['e567fff8553730d12435b22607b008af4d81530d'],False,['vectorized_mobject.py']
+d8896e299e8b200f8b2187236fe4e12fe9d59500,Small bug fixes to NumberPlane,['9cdf35475d4e0b1cb8bec727e0e4c24db6d4dfe2'],False,['coordinate_systems.py']
+97c8ea273885476d821bd1ababe18f8253279563,Small bug fix to NumberLine,['43f214550834cdb93087dd3ebc4d65570b206417'],False,['number_line.py']
+b0bbb1d07858a6dffcd4df7e5c57767638490086,"Merge pull request #475 from niyiyu2316/master
+
+Fix bug for creating Matrix","['acde5252eaade39483de436d88d655e358ab4911', '2db1dff1cf8af0cab48dbee41fac57178f1e1283']",True,[]
+f3048eb5741c2e41952bd160d1a4cd5764918194,Fixed bug with Bubble,['48f38b894031fe0ea31e2e1430151c10b2c480e4'],False,['drawings.py']
+06f78bf28f5af7089a901e0f369c9ca73569dcb8,"conda environment bug fix with pyreadline package, closes #662",['49582c35919097585699598ad0ca49fe3f2117b5'],False,['environment.yml']
+91580ed4a356541e01cacc41423d2724abb8c956,conda env bug fix- ffmpeg from conda,['06f78bf28f5af7089a901e0f369c9ca73569dcb8'],False,['environment.yml']
+f0cff687aa74e6358b8580777623a803c9f7002e,"Merge pull request #663 from pranjaldhole/master
+
+conda environment bug fix with pyreadline package, closes #662","['73fea6a1977498e50aeda0aeb7e59a6461ccf3e3', '91580ed4a356541e01cacc41423d2724abb8c956']",True,[]
+f66d6e4f972852980645933087e1a11f72a06a01,"Added AddTextWordByWord, but it's not yet working, presumably because of some bug in Succession.",['67f3d1584cd1ecd32fccfa8d08ab59e93c0a924d'],False,['creation.py']
+2afa079b6ae8ade19dbb166c0ece00f79657d4c1,"Merge pull request #780 from timgates42/bugfix/typo_installation
+
+Fix simple typo: installtion -> installation","['637c48905a9b20859f86dac593cbf3195b127cef', 'b1b516e9c41d780342852ea2f2a86e3c57dc520d']",True,[]
+84e7bdb2b1f41929dada735094eccc9fc2cdc65c,Added a couple helpful debugging functions,['b7cb9aa9382ba80317ad1fbcefe9c809e46055fb'],False,"['imports.py', 'debug.py']"
+94a388388014c9521902ffab2da1635b9c783986,"Remove Mobject.print_family, as that is now in utils.debug",['84e7bdb2b1f41929dada735094eccc9fc2cdc65c'],False,['mobject.py']
+1279f040dafa9292cd7e8b2fbdc6a464a574240c,"Temporarily adding input_file_path to SceneFileWrite config.  Not sure why this isn't there already, or if there are problems with setting a default, but it fixed a weird bug that had arisen",['0f71b0a408ccc8de9f29c5bb96f4e76840b3946b'],False,['scene_file_writer.py']
+3362f93964cae6f610a47d2da0e076b51a9eab42,"Fix three bugs(shaders/stroke/size) of Text Class (text_mobject.py)  (#1030)
+
+* fix: remove the last M tag in svg files to make Text run in shaders branch
+
+* fix: close the svg path manually to fix the bug of wrong stroke
+
+* fix: remove Space mobjects in Text to fix the bug of TransformText
+
+* feat: make Text and TextMobject equal in size
+
+* this will lead to more bugs of setting color, so I delete it",['af65c9d5d4ecbcffc5e569508053d56d1f7e86eb'],False,['text_mobject.py']
+522a5b3c5f1830dea455625da513698d6ac27845,"Fix space characters problem of Text (#1035)
+
+* Fix Text wrong display
+
+* Fix space characters problem of Text
+
+* Fix a potential bug using height or width in Text
+
+* Update Text
+
+* Fix typo in text_mobject.py",['3362f93964cae6f610a47d2da0e076b51a9eab42'],False,"['svg_mobject.py', 'text_mobject.py']"
+92f6eb4ed92c00a92385223fe3273a5fa1caeb2d,"constants.py overhaul
+
+-DIR variables have been moved into their own file to avoid overwriting user changes in the future (dirs.py)
+-Initialization of directories has been moved to config.py, and a bunch of bugs associated to file structure generation have been fixed
+-Global dir variable handling has been removed. Instead initialize_directories, if needed, overwrites the values from dirs.py at runtime
+-Dirs are now only taken from dirs.py directly
+-In constants.py high quality has gotten its own short argument (-e), and the quality argument explanations have been improved
+-Deprecated media_dir.txt has been removed
+-Deprecated if statements in scene_file_writer.py have been removed",['865c4c1499764160d1990bd08b24128ba32468cf'],False,"['__init__.py', 'config.py', 'constants.py', 'dirs.py', 'mobject.py', 'text_mobject.py', 'scene_file_writer.py', 'tex_file_writing.py']"
+8955f34e71599a09a175511259d1cc55fc78aa76,debuging Travis,['572d8819d33458d69c925113f9479f5b02ea94f9'],False,['test_CLI.py']
+5c2e085d495091518026c75f24f7124a8cc0331b,change loglevel to debug in order to see what is going on in Windows travis builds,['83f0b841347779d61724517b04cd9188a58157a3'],False,['scene_file_writer.py']
+1fe45058e5c5a1e01e9fa05b9c7e29efcd8c6ad6,reverse debugging changes,['cc11fef1cbeaa58009fc15bf8777a05c5c5ed53a'],False,['scene_file_writer.py']
+5eb9fed85dc16f790a84432375d854020a14e750,fixed minor bug (small shift of the grid),['a0db3c4a78bfd07c667817ebb5c607bebf81ed49'],False,['coordinate_systems.py']
+b9b579366a68be810717b26a551b75c9ddddad43,fixed minor bug (wrong number of faded lines),['d7615a621ccfdfe8e4cf1f652eb3b79782abf7bd'],False,['coordinate_systems.py']
+558502ca7633f1c8d4185f38fb155bd6dcf33954,"Fix a bug where only using `manim` as command would throw an error.
+
+Set cfg write default value to None.
+
+This means that if no argument is provided, the configwriter will ask for location.",['0ac65f3b9a1056418f3a974e1bbaf6974ce18ff4'],False,['config_utils.py']
+7f2876991d64c436ae9bd4c72f3929d169c4501a,"Use file_writer_config instead of config to get text_dir for Text() (#220)
+
+* Use file_writer_config instead if config for Text()
+
+Fixes a bug where a keyerror would be thrown when rendering a Text() mobject.
+
+* Make testing_utils.py use file_writer_config.
+
+Thank you @huguesdevimeux !
+
+Co-authored-by: Aathish Sivasubrahmanian <aathishs@Aathishs-MacBook-Air.local>",['f4c9c7a4299b01b3dfbcf662be1834534d43d987'],False,"['text_mobject.py', 'testing_utils.py']"
+4468c85164fa1d9a45ff47fbbf55227deb16575f,"Fix bug where `cfg` is taken as a filename.
+( Removes need for min_argvs)
+
+Moved cfg subcommand initialisation to separate function.
+
+Added some notes on how to add more subcommands.",['70c0d53a01ee6cd1da9a74c0338ed404f67b9123'],False,['config_utils.py']
+61d5e46914a35efb84872b4cdc7d5fb0011f5a81,"Added Scene caching (#166)
+
+* added caching functionnality
+
+* deleted comments
+
+* fixed wait bug
+
+* added docstrings
+
+* fixed minor typo in doc
+
+* added cache cleaner
+
+* added disable_caching option
+
+* supported camera_config, and hashing functions
+
+* use now digital naming when disable_caching
+
+* added an option to flush the cache.
+
+* fixed shameful typo
+
+* added max_cached_files
+
+* fixed merge issues
+
+* added digital naming when disable_caching
+
+* foxed skip_animations dlag that #98 broke
+
+* removed cairo context from hash
+
+* removed deprecated code
+
+* fixed tests by setting write_to_movie to False
+
+* removed useless code
+
+* Revert ""Use file_writer_config instead of config to get text_dir for Text() (#220)""
+
+This reverts commit 7f2876991d64c436ae9bd4c72f3929d169c4501a.
+
+* Apply suggestions from code review
+
+Thanks @pgsuper !
+
+Co-authored-by: Pg Biel <9021226+PgBiel@users.noreply.github.com>
+
+* fixed max_files_cached typo
+
+* Use file_writer_config instead of config to get text_dir for Text() (#220)
+
+* Use file_writer_config instead if config for Text()
+
+Fixes a bug where a keyerror would be thrown when rendering a Text() mobject.
+
+* Make testing_utils.py use file_writer_config.
+
+Thank you @huguesdevimeux !
+
+Co-authored-by: Aathish Sivasubrahmanian <aathishs@Aathishs-MacBook-Air.local>
+
+* removed useless code
+
+* used self.camera instead of __dict__
+
+* Apply suggestions from code review
+
+Thanks @pgsuper !
+
+Co-authored-by: Pg Biel <9021226+PgBiel@users.noreply.github.com>
+
+* more pythonic
+
+* fixed bug related to dict keys
+
+When a dict containing keys not of the right type it caused an error.
+
+thanks to @Aatish04.
+
+* fixed minor bufg of the last commit
+
+* Now clean_cache can remove multiple files.
+
+* fixed bug when rendering multiple scenes.
+
+skp_animations was not reset to a default value. Appeared in #98
+
+* fixed bug related to nested dict with wrong keys
+
+See previous commit.
+
+* added infinity support for max_file_cached
+
+and changed default
+
+* changed default value of max_files_cached to 100
+
+* deleted comments
+
+* fixed docstrings
+
+* fixed format (maybe)
+
+* fixed format
+
+* fixed tests
+
+* Update expected.txt
+
+Fixes logging tests.
+
+* fixed merge conflict
+
+* fixed logging test
+
+* fixed docstrings
+
+* minor doc improvement
+
+* Apply suggestions from code review
+
+Thank you Captain Docs !
+
+Co-authored-by: Pg Biel <9021226+PgBiel@users.noreply.github.com>
+
+* Apply suggestions from code review
+
+Co-authored-by: Pg Biel <9021226+PgBiel@users.noreply.github.com>
+
+* fixed typo of the last commit -_-
+
+Co-authored-by: Aathish <aathish04@gmail.com>
+Co-authored-by: Aathish Sivasubrahmanian <aathishs@Aathishs-MacBook-Air.local>
+Co-authored-by: Pg Biel <9021226+PgBiel@users.noreply.github.com>",['e9046409655d3afcd09c959e90f50712982d5345'],False,"['default.cfg', 'scene.py', 'scene_file_writer.py', 'config_utils.py', 'file_ops.py', 'hashing.py', 'conftest.py', 'test_cfg_subcmd.py', 'write_cfg_sbcmd_input.txt', 'expected.txt', 'test_logging.py', 'testing_utils.py', 'manim.cfg']"
+3489ea75248980fae755ded70425c31c5a934394,"Merge pull request #296 from Aathish04/show_cfg_in_debug_only
+
+Show read cfg files in DEBUG mode only; change default testing mode to DEBUG","['32de3b570c620ba05875917c3bf02b68c4a70ae0', '36495f4cd44c529ff8168aa2b4c8504b0aa1dbb9']",True,[]
+06602b774bc2132a5e43683c5cc15cf469efc8b8,"Fixed bug that broke some Windows CLIs (#336)
+
+In some Windows CLIs, the command 
+
+`manim file.py ...`
+
+will generate the argv
+
+`C:\\path\\to\\manim.exe file.py ...`
+
+This would cause _from_command_line() to misleadingly return False, which completely prevents users from calling manim from the CLI, as certain key fields like `input_file` would not be populated.",['68524936edd49e20e361928ecc8566903b877158'],False,['config_utils.py']
+95ff9f89d6789129b50995b597b2722069a41d8b,"Rewrite contributing guide and add two troubleshooting soulutions (#384)
+
+* Move bug report guide to own page, rewrite contributing guide, add a troubleshooting solution
+
+* Apply suggestions from code review of contributing guide rewrite
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Change contributing guide to checkout master
+
+Instead of saying how to checkout any branch, change contributing.md to say how to checkout the master branch specifically.
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>",['16044c4c086a0f052d98072b89ff3a534592a26c'],False,"['contributing.md', 'index.rst', 'installation.rst', 'troubleshooting.rst', 'reporting_bugs.rst']"
+5dd7bfe644e57d428deaad18f0ab8d3772d1ad01,"Miscellaneous Scene-Caching Optimisations and Bugfixes. (#315)
+
+* fix 301/scene-caching optimization
+
+* added nested dict with cirular references support
+
++ some docs
+
+* optimization: now it ignores the scene object
+
+* fix #320
+
+* modified verbosity level
+
+* added copy error handling
+
+* fixed test_logging (maybe)
+
+* captain black
+
+* Various improvemens and optimizations,
+
+Mostly about copys handling.
+
+* yes sir I run black I swear sir
+
+* ahem, typo
+
+* (hopefully) fixed logging test
+
+* Suggestion from the great @aathis
+
+* Disable Scene Caching if `-` is filename.
+Fix #348
+
+* Import logger from proper place.
+
+* Update expected log file
+
+* added mappingproxy support
+
+* fixed bug related when keys of the wrong format,
+
+Now manim do really change the key to its hash. (wasn't really the case before)
+
+* added large np array handling
+
+* added message when using truncated array
+
+* smolfix
+
+* added unit test for hashing.py
+
+* Fix a typo.
+
+Co-authored-by: Leo Torres <dleonardotn@gmail.com>
+
+* Assign suggestions from @PgBiel
+
+* suggestion from @leotrs
+
+* Apply suggestions from code review
+
+Co-authored-by: Pg Biel <9021226+PgBiel@users.noreply.github.com>
+
+* fixed tests
+
+* imrpoved code organization
+
+* NO COLON NO COLON NO NO COLON NO LOCON NO COLON
+
+Co-authored-by: Pg Biel <9021226+PgBiel@users.noreply.github.com>
+
+* NO COLON NO COLON NO NO COLON NO LOCON NO COLON
+
+Co-authored-by: Pg Biel <9021226+PgBiel@users.noreply.github.com>
+
+Co-authored-by: Aathish Sivasubrahmanian <aathish04@gmail.com>
+Co-authored-by: Hugues Devimeux <hugues.devimeux@gmail.com>
+Co-authored-by: Leo Torres <dleonardotn@gmail.com>
+Co-authored-by: Pg Biel <9021226+PgBiel@users.noreply.github.com>",['982446375f0b6fa3da18ad0d987b45edc4afd520'],False,"['__main__.py', 'scene.py', 'scene_file_writer.py', 'hashing.py', 'test_hashing.py', 'expected.txt']"
+1f02ae066564e3acd6253f03751ed94012c85f7e,"Fixed Some bugs of code_mobject.py and Text_mobject.py (#198)
+
+* Update text_mobject.py
+
+* Update code_mobject.py
+
+* Update constants.py
+
+* Update constants.py
+
+Co-authored-by: Hugues Devimeux <hugues.devimeux@gmail.com>
+Co-authored-by: Hugues Devimeux <36239975+huguesdevimeux@users.noreply.github.com>
+Co-authored-by: Pg Biel <9021226+PgBiel@users.noreply.github.com>",['1a516dbc64b0f105914e5a9be6d66aa839cec964'],False,"['code_mobject.py', 'text_mobject.py']"
+5a6e0db467d0837badc75216b41f9afc1e65030c,Fix a bug and format using black,['47ef49428f36f2ce2e26dba7608be766c4c76232'],False,"['panT.py', 'text_mobject.py']"
+de75f5d35d90bc38b44ba13b421306e535046bf3,"Fix bug in axes (#519)
+
+* fix bug in Axes",['0b2a2fbdd2816ae8313809facd154d71b32835e9'],False,['coordinate_systems.py']
+e1adf6aa97abe622895999c088d2e885d0ea974f,"Update issue templates - add general bug report
+
+This template is meant to cover most non-specific issues such as broken code and ""something's not working"" types of cases. Templates specific to other things such as scene caching and the config system etc. will be added soon.",['129b3bfc249b75a991779dbb1ccd5773120e6009'],False,['bug_report.md']
+8b9dba2edb6cd23b29179b458f2a0e05ce8dab42,"Make manim crash when ffmpeg crashes (#546)
+
+* make manim crash when ffmpeg crashes
+
+* lol black
+
+* removed Example3DNo1 for not breaking the docs
+
+* Quick test with all 3d scenes removed
+
+* re added 3d scene
+
+* woah that was hard to debug
+
+* fix underlines
+
+* woah THAT was hard to debug
+
+* black
+
+* blackest night
+
+* do the other call too
+
+* I just want to re-trigger the RTD build
+
+Co-authored-by: kolibril13 <44469195+kolibril13@users.noreply.github.com>",['8ffcf06af28700baf2d249d1fd3583feca2b5c01'],False,"['3d.rst', 'linux.rst', 'manim_directive.py', 'constants.py', 'scene_file_writer.py', 'caching.py']"
+076a39c2777413856c3bc715371e3c2bc3e712f8,"Fix become bug (#614)
+
+* Fix become bug
+
+* added a test for the become method
+
+* Add test
+
+* Remove test
+
+* Add test again
+
+* Remove test again
+
+* Add test again again
+
+Co-authored-by: kolibril13 <jan-hendrik.mueller@gmx.net>",['84b3dee8ac447660446e496cd8ff115fe8fa8e98'],False,"['cairo_renderer.py', 'scene.py', 'FadeInAndOutTest.npz', 'test_transform.py']"
+8dd84a4a47e6db2e6e9ed4b2d99a6825f4fe3c2a,fix bug in ManimConfig.get_dir() and simplify the manim_directive,['00c0fcb948a0a0bb71e84c7839b4b7ab91f6119f'],False,"['manim_directive.py', '__main__.py', 'utils.py']"
+096ce035f93d0d8e9906cb42eb5070944ffe5a36,ThreeDCamera move bug fix,['9bdb6032ab8c245d422b2510f408f75187dd07d3'],False,"['camera.py', 'three_d_scene.py', 'CameraMoveTest.npz', 'test_threed.py']"
+116733867e3c4663fe259e7099cae83462e7f505,"ThreeD bug fixes (#674)
+
+* Fix for #569
+
+Co-authored-by: kolibril13 <jan-hendrik.mueller@gmx.net>","['dd1b3258402c39fca5bc5af2738d435bea377d78', 'a535971a31f3c4f22e334e06bf1e401a2177af6f']",True,[]
+31d6ffb9d3f1f5f714ff31fc732124515b0bab3c,"Adds config[""assets_dir""]/CLI argument, documentation, and bug fix? (#649)
+
+* Added examples, documentation, assets_dir config",['9017dc97b04094f99d77bb930df5bf3a3aead9c1'],False,"['shapes_images_positions.rst', 'manim_directive.py', 'default.cfg', 'utils.py', 'svg_mobject.py', 'image_mobject.py', 'images.py']"
+e1b2d10836047dc0982781ae402631a92bd31940,"Fix docs build directory (#699)
+
+* Fixing directory bug on linux
+
+* UNTESTED fix of the build directory bug on windows
+
+* Tried to fix the fix on windows
+
+* Revert back what was thought to be an error",['df0be7d3789ac29adea6da62cd02b25997f0771e'],False,"['Makefile', 'make.bat']"
+e247b7cc0bc7d8caf65ce421422b6c6a8a0e14ea,"New issue templates (#708)
+
+* remove superfluous file
+
+* improve formatting of bug report template
+
+* add new templates for feature requests, installation issues and suggestions
+
+* fix link to troubleshooting page
+
+Co-authored-by: Leo Torres <dleonardotn@gmail.com>
+
+* generate logs using manim -v DEBUG
+
+* improve wording of -v DEBUG hint
+
+Co-authored-by: Leo Torres <dleonardotn@gmail.com>",['9a39701f79ab882e4fa2958dc26e7c945edb04c1'],False,"['ISSUE_TEMPLATE.md', 'bug_report.md', 'feature_request.md', 'installation_issue.md', 'suggestion.md']"
+c560ab397de70065dfae8af8474fe598158b464f,"Markup text (#855)
+
+* Minor changes: double line + typos in Text and CairoText
+
+* Add MarkupText class
+
+* Accidentally ran BLACK on wrong file...
+
+* Clean up import, extent SVGMobject instead of Text
+
+* Added offset attribute to workaround ligature problems
+
+* Disable all ligatures when disable_ligatures=True
+
+* BLACK
+
+* Improvements, docs, examples
+
+- individual offset for start and end of partial colorizing / gradients in case there are ligatures inside the string that has to be colorized
+- deal with HTML entities in string
+- documentation of supported tags
+- full set of examples
+
+* removing disable_ligatures from example b/c of failing doc build
+
+* take disable_ligature into account in hash
+
+* doc cleanup + change text2hash to take into account disable_ligatures
+
+* Docs and examples cleanup
+
+* Changelog + bugfix for multi-line strings
+
+* add one more example + small fix
+
+* Remove entries in changelog
+
+will put them in the wiki
+
+* Accept colors as hex triples; typing as per review
+
+* cleanup: gen_chars should not be needed anymore
+
+* Cleanup: PangoUtils class with static methods
+
+* Add color to ligature example
+
+* Small change, mainly to trigger checks again
+
+* Typings, Cleanup
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Remove warning; it is no longer accurate
+
+* Move remove_last_M to PangoUtils class & make static
+
+* Remove warnings about transofmration
+
+* Doc cleanup
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Clean up docstrings
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Black
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['888dee7495d833ac0bed95cd205b0d08c1735c12'],False,"['changelog.rst', 'text_mobject.py']"
+e16f9a6cc4da677c6f0fc4e7ba8d7025f9d6bb10,"Basic implementation of undirected graphs (#861)
+
+* toying around with a graph using networkx layouting
+
+* basic implementation and documentation of a class for undirected graphs
+
+* import graph module into global namespace
+
+* add graph module to documentation
+
+* poetry: add networkx as a dependency
+
+* remove some debug prints
+
+* sort all extracted mobjects w.r.t. z_index
+
+* add test for z_index (from #327)
+
+* more complex z_index test
+
+* black
+
+* improve imports
+
+* use z_index to have edges below vertices
+
+* add type hints
+
+* rename some tests to make space for graph tests
+
+* fix problem with manual positioning
+
+* add test
+
+* black
+
+* new animate syntax
+
+* document label_fill_color",['fe2ba6d86cb8e51004267b4bc9cdf1b1389a8b1c'],False,"['reference.rst', '__init__.py', 'graph.py', 'poetry.lock', 'pyproject.toml', 'AxesTest.npz', 'PlotFunctions.npz', 'test_graph.py', 'test_axes.py', 'test_graphscene.py']"
+fc754fa7f60a7b49840628311f809840c98cdceb,"Add custom font files support (#939)
+
+* Custom font files support
+ManimPango v0.1.7 allows adding fonts to search path, for windows.
+This will introduce a  helper function which can be used for
+properly registering and unregistering a font file.
+Also, this allows searching files in asset directories as done
+in other parts of code.
+
+Signed-off-by: Naveen M K <naveen@syrusdark.website>
+
+* fix a small bug on not converting to Path
+
+* lint
+
+* update example
+
+* Apply suggestions from code review
+
+Co-authored-by: Leo Torres <dleonardotn@gmail.com>
+
+* update docs
+mention about AttributeError on macOS
+add a Notes section instead of .. note.
+
+* remove files commited by mistake and black
+
+* remove superfluous print statement
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+Co-authored-by: Leo Torres <dleonardotn@gmail.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['9de72350a0f579c74ad5cca09a5c00f965ae8cf2'],False,"['utils.py', 'text_mobject.py', 'poetry.lock', 'pyproject.toml']"
+b1bfc9bbd5acf9958b0846936142c5af67c72a86,"Bugfix: fix code formatting in utils/debug.py (#958)
+
+* Rename get_submobject_index_labels to index_labels
+
+* add deprecation notice
+
+* black
+
+* grr... black again",['8d3619e8022839ef547017d8c56b0a7e02acc2b5'],False,['debug.py']
+b2abe699fb1b4ffae24b036b73add49523a8d4d8,"New Feature: IPython %%manim magic (#943)
+
+* working prototype of manim line and cell magic
+
+* downgrade ""dummy animation"" log entry from warning to debug
+
+* use built-in methods for displaying images/videos
+
+* create tempconfig from current config, if available
+
+* cleanup imports
+
+* add some basic documentation and pointers
+
+* make import of ipython_magic robust against missing IPython
+
+* add statement to README
+
+* fix link in quickstart
+
+* experimental: stateful magic allowing to circumvent caching
+
+* add jupyterlab to optional dependencies in pyproject.toml
+
+* actually make jupyterlab an optional dependency
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* try to improve the situation for google colab
+
+* embed video within google colab
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>",['80574b7125f60dc4363dd7aeaeef9512bec69ffe'],False,"['README.md', 'rtd-requirements.txt', 'reference.rst', 'quickstart.rst', '__init__.py', 'animation.py', 'scene_file_writer.py', 'ipython_magic.py', 'poetry.lock', 'pyproject.toml']"
+57f228b8eb96f9c99517a7fdb8756b0c4969d7ff,"Js tweening (#952)
+
+* Add .animate attribute to mobjects
+
+* Return function from _AnimationBuilder.__getattr__
+
+* black
+
+* Pass background color to JS renderer
+
+* Handle default case
+
+* Pass background color to JS renderer
+
+* Remove line that came back in the merge
+
+* Handle FrameServer case
+
+* Use community colors by default
+
+* Allow for chaining _AnimationBuilder
+
+* Trying to do tweening
+
+* Add _AnimationBuilder.build()
+
+* Apply docs patch
+
+* Pass tweening data
+
+* Pass ID for ImageMobject
+
+* Fix Wait bug, add FadeIn tween data
+
+* Remove unused proto fields
+
+* Remove unused proto field
+
+* Optimize RPCs
+
+* Handle frame skipping better
+
+* Refactoring
+
+* Ignore PreviewMode.ALL
+
+* Remove preview mode
+
+* Don't send tween data for wait
+
+* Opacity fixes
+
+* Add comments
+
+* Simplify protos
+
+* Add tween data for wait
+
+* Add todo
+
+* Serialize when updating
+
+* Prepare to send tweened and non-tweened mobject IDs
+
+* Pass updater information to javascript
+
+* Add log
+
+* Rename js_* -> webgl_*, remove WebGLScene
+
+* rename js->webgl in workflow file
+
+* Update doctest
+
+* Update .gitattributes
+
+* Remove try/except for webgl imports
+
+* Step through animations using updaters with fixed frame rate
+
+* Add --webgl_updater_fps flag
+
+* Configuration test
+
+* configuration test
+
+* JS->WebGL
+
+* Add install message",['1d3e36a564fd0e4adfa7fe6537c7023e0a2070c2'],False,"['.gitattributes', 'ci.yml', 'configuration.rst', '__init__.py', '__main__.py', 'default.cfg', 'main_utils.py', 'utils.py', 'transform.py', 'webgl_camera.py', 'constants.py', 'frameserver_pb2.py', 'frame_server_impl.py', 'frameserver.proto', 'mobject.py', 'numbers.py', 'webgl_renderer.py', 'js_scene.py', 'scene.py', 'poetry.lock', 'pyproject.toml']"
+f4e5408d5d8797f6b5aaf234539a6d3579ceccd8,"Fix Windows CI pipeline by adding missing LaTeX package (#988)
+
+* add debug output for windows CI (to be removed again)
+
+* add missing everysel package
+
+* Revert ""add debug output for windows CI (to be removed again)""
+
+This reverts commit a71fdc538edd90310b97edebc96f64a9acf4cf65.",['b36cdb1933febb3de7ec1160f2e0dcdacac92415'],False,['manimdependency.json']
+783bddebfcfa2e82596934f59b307699afe691b2,"Refactored coordinate_systems.py, fixed bugs, added NumberPlane test (#1092)
+
+* Add function to update a dict recursively with other dicts
+
+* Refactor Axes and NumberPlane
+
+* Fix NumberLine's rotation
+
+* Rotate NumberLine just before adding numbers
+
+* More refactoring
+
+* Add graphical unit test to NumberPlane
+
+* More cleanup and fix range attributes issue(#840)
+
+* Remove overlooked print statements and run black
+
+* Make graphical unit test of NumberPlane more robust
+
+* Shift z_axis to XY-plane's origin and minor refactor in its rotation
+
+* Apply review suggestions",['292e49dcdf98527a25f4377d955417206a0deceb'],False,"['coordinate_systems.py', 'number_line.py', 'config_ops.py', 'NumberPlaneTest.npz', 'test_coordinate_systems.py']"
+776067584e6365db1898d23a2dc7fe20cf07ae5e,"Added new classes Angle, RightAngle for two intersecting lines (#1085)
+
+* test
+
+* test2
+
+* Added two angle functions
+
+* bug-fix
+
+* bug_fix
+
+* bug-fix
+
+* angle changes
+
+* Added Docstrings
+
+* Run tests
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: KingWampy <9156604+WampyCakes@users.noreply.github.com>
+
+* Changed examples
+
+* Added tab
+
+* Changed docstring
+
+* Updated Docstrings
+
+* Updated Docstrings
+
+* Ideas from MrMallIronmaker implemented
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>
+
+* Change inheritance for Angle
+
+* Added inheritance in Angle
+
+* Black Test
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>
+
+* Fixed multiple inheritance
+
+* Added Tests
+
+* Black test
+
+* retrigger checks
+
+* Updated docstrings
+
+* updated Docstrings
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>
+
+Co-authored-by: Pseudodifferent <44864613+Pseudodifferent@users.noreply.github.com>
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>
+Co-authored-by: KingWampy <9156604+WampyCakes@users.noreply.github.com>
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>",['783bddebfcfa2e82596934f59b307699afe691b2'],False,"['geometry.py', 'AngleTest.npz', 'RightAngleTest.npz', 'test_geometry.py']"
+83be83378890d83633c7ef5e2ac5cdbc2d3cc30c,"Documenation additions to Mobject class (#1101)
+
+* test
+
+* revert test changes
+
+* doc: add_background_rectangle
+
+* test
+
+* revert changes
+
+* add doc: add_background_rectangle
+
+* add doc: add_background_rectangle
+
+* add docs: init_colors and generate_points
+
+* changes to code-style in add documentation
+
+* add add_to_back in see also of add
+
+* change doc: add_to_back
+
+* docs: unify the way, code is formated (from :code:`...` to ``...``)
+
+* add length_along_dim in See also for width, height and depth
+
+* add docs: copy
+
+* add docs: update
+
+* change docs: update
+
+* add docs: get_time_based_updaters and has_time_based_updater
+
+* add docs: get_updaters
+
+* unify the way methods are referenced
+
+* add new example to add_updater
+
+* remove old example in add_upader
+
+* add example: update function using dt
+
+* add doc: remove_updater
+
+* add doc: clear_upaters
+
+* add doc: match_updaters
+
+* add doc: suspend_updating
+
+* add doc: resume_updating
+
+* add doc: apply_to_family
+
+* add doc: shift
+
+* add doc: scale
+
+* fix commiting issue resulting in a deleted line
+
+* back-check files
+
+* Change first doc lines to match guidelines
+
+* Adjust type specifications to match docs guildelines
+
+* run black
+
+* Delete test.py
+
+* remove bug-fix
+
+* Add type statement to function definitions
+
+* Fix return type declarations
+
+* Remove -> None
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* add color type def
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* add typing additions
+
+* list typing
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* add Typing to update function
+
+* add optional int type
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* change Updater typing
+
+* remove types from docstrig where redundant
+
+* black
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>",['99a5a5e10a173739624c7b1ea1dfb2e7c3db1c81'],False,['mobject.py']
+4716331ab45692245fa91269e39c766a457a87dc,"Fix bugs in OpenGLMobject class and Fix ApplyMethod to support OpenGLMobject (#1115)
+
+* fix undefind variables and convert Mobject to OpenGLMobject
+
+* fix assert with OpenGLMobject
+
+* refactor",['83be83378890d83633c7ef5e2ac5cdbc2d3cc30c'],False,"['transform.py', 'opengl_mobject.py']"
+01135d4ed402222120f879878984939014df05ea,"OpenGL: Add caching, skipping, and user-specified background colors to the OpenGL renderer (#1123)
+
+* fix bug and add OpenGLParametricSurface
+
+* improve opengl play logic to support manim cache engine
+
+* Allow user to change opengl background window color
+
+* Remove TODO
+
+* Revert ""fix bug and add OpenGLParametricSurface""
+
+This reverts commit bf147695650f3864703da76ccc0e0cdde4868ea1.
+
+* Surface -> OpenGLSurface
+
+* Fix a bug
+
+* remove duplicate function
+
+* Update utils.py",['5f658bae2821c38b004ba99c3eb6370a2251dda6'],False,"['utils.py', 'opengl_surface.py', 'cairo_renderer.py', 'opengl_renderer.py', 'scene_file_writer.py']"
+e18db42ae1ea9e1f28037d97acb2d79bfe3c9fd0,"Merge :class:`~.OpenGLMobject` and :class:`~.Mobject` (#1167)
+
+* Update mobject.py
+
+* 2 test failed
+
+* Update mobject.py
+
+* fix set_rgba_array
+
+* finish
+
+* no errors with cairo so far
+
+* SurfaceExample partially works
+
+* SquareToCircle works
+
+* Update opengl_mobject.py
+
+* SurfaceExample works without  Textures
+
+* More updates
+
+* all opengl examples work pefectly
+
+* Update opengl_surface.py
+
+* fix test case
+
+* fix flake8 and refactor code
+
+* remove all OpenGLMobject related code
+
+* add functions from OpenGL
+
+* remove comments
+
+* Fix bug",['aea9e094cb6502b952338ebbed2a5b4c1b710c04'],False,"['opengl.py', 'animation.py', 'transform.py', 'mobject.py', 'opengl_geometry.py', 'opengl_mobject.py', 'opengl_three_dimensions.py', 'opengl_surface.py', 'opengl_vectorized_mobject.py', 'opengl_renderer.py']"
+a87bb2848408ae061e78ea40da32b59c407c23f3,"Refactored the Command Line Interface to use Click + Cloup instead of Argparse (#1013)
+
+* Added click dependency and command structure
+
+* Refactored code for separation of concerns
+
+* Shortened plugins command to plugin, added render options
+
+* first draft for render -h
+
+* First successful render using click
+
+* Cleaned main
+
+* Moved flush_cache to option, ran black
+
+* Removed argparse logic, scattered print statements
+
+* corrected tests, all passing
+
+* merge upstream
+
+* fixed test with click's clirunner
+
+* Fixed doctest configuration.rst
+
+* Temporarily add in main_utils
+
+* Removed main_utils.parse_args, used ManimConfig.digest_args
+
+* fixed progress bar
+
+* Fix jupyter
+
+* black
+
+* Fixed incorrectly merged merge conflict
+
+* updated README command.png image
+
+* updated configuration.rst expected output
+
+* Fixed test_plugins and config_file expected type
+
+* Refixed the jupyter fix
+
+* Apply 3/5 suggestions
+
+Remove stray print
+
+Improve readability of test code
+
+Added module docs for the subcommands
+
+* Updated `main` to `manim` for tests
+
+* Forced `file` positional argument to be Path type
+
+* Fixed main -> manim
+
+* Added libpango to linux dependency
+
+* Updated poetry.lock
+
+* Changed configuration.rst test
+
+* Fixed test_a_flag test
+
+minor space issue
+
+added media_width to configuration.rst
+
+* Fixed fps flag in Cairo rendering
+
+* Fixed more outdated rst in sphinx docs
+
+Removed default for fps option, always overwrote quality
+
+Fixed doctest control_data
+
+* Fixed more incorrect rst orderings
+
+* Update tests/test_commands.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Added suggestions
+
+* Removed unused imports
+
+* Reverted entry point back to main
+
+* Update manim/_config/default.cfg
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Adjusted ipython_magic's call to the entry_point
+
+* Converted frame_rate to int if integer
+
+* run black
+
+* Fixed doctest
+
+* Fixed issue with command name from CliRunner
+
+* Fixed multiple video windows opening from upstream merge
+
+* to black or not to black
+
+* Added deprecation warning to render subcommand
+
+* warning instead of warn
+
+* Applied Naveen's suggestions
+
+* Made `manim render` show the help page
+
+* Update manim/cli/render/commands.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Update manim/cli/cfg/commands.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Update manim/cli/cfg/commands.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Update manim/cli/plugins/commands.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Addressed some style changes
+
+* add back in write_to_movie temporarily for OpenGL support
+
+* Removed sound flag, deprecated use_opengl_renderer, added renderer option
+
+* revert webgl_renderer_path removal
+
+* Fixed cfg export
+
+Fixed readme usage of CLI
+
+* Flake8/black
+
+* Fixed bug in setting renderer choice
+
+* Removed log message due to default option
+
+Removed default option of background color
+
+Fixed write_to_movie flag default
+
+* Fix log_to_file tests
+
+* Make '-c' option for config_file, not background_color
+
+* print colored version always
+
+* Remove -v = --version shorthand, conflicts with verbosity
+
+* Use subprocess.run instead of Click's CliRunner for stdout
+
+* Refactor cli/render to use Cloup instead of click-option-group
+
+1) There's a new file for each option group
+2) render is now a cloup.Command, not a Group
+
+Fixed issue when an animation is cached, manim can't merge the partial movie files. (#1192)
+
+* fixed issue
+
+* fixed tests
+
+* Update manim/renderer/cairo_renderer.py
+
+Co-authored-by: Darylgolden <darylgolden@gmail.com>
+
+* added tests
+
+* imrpoved test
+
+* fixed logic
+
+* added new test
+
+* check if the file has been outputed
+
+* added test when caching is enabled
+
+* fixed tests on windows
+
+* black
+
+* Update manim/renderer/cairo_renderer.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Update tests/assert_utils.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+Co-authored-by: KingWampy <9156604+WampyCakes@users.noreply.github.com>
+Co-authored-by: Darylgolden <darylgolden@gmail.com>
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+Added :ref_methods: to the manim directive (#1209)
+
+* fix manim_directive for methods
+
+* added ref_methods to Angle example
+
+* black
+
+* added new ref_methods references
+
+* sort out ref_functions vs ref_methods in examples.rst
+
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+Fixed issue when an animation is cached, manim can't merge the partial movie files. (#1192)
+
+* fixed issue
+
+* fixed tests
+
+* Update manim/renderer/cairo_renderer.py
+
+Co-authored-by: Darylgolden <darylgolden@gmail.com>
+
+* added tests
+
+* imrpoved test
+
+* fixed logic
+
+* added new test
+
+* check if the file has been outputed
+
+* added test when caching is enabled
+
+* fixed tests on windows
+
+* black
+
+* Update manim/renderer/cairo_renderer.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Update tests/assert_utils.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+Co-authored-by: KingWampy <9156604+WampyCakes@users.noreply.github.com>
+Co-authored-by: Darylgolden <darylgolden@gmail.com>
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+Added :ref_methods: to the manim directive (#1209)
+
+* fix manim_directive for methods
+
+* added ref_methods to Angle example
+
+* black
+
+* added new ref_methods references
+
+* sort out ref_functions vs ref_methods in examples.rst
+
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+Fixed unnecessary args dict
+
+* Fixed bug that changed caching hashing result
+
+* Revert doctest logic for fps filename output
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+Co-authored-by: Gianluca Gippetto <gianluca.gippetto@gmail.com>",['f51133be42feb051a12ecc8a407eec2b850d50b9'],False,"['README.md', 'command.png', 'plugins.rst', 'a_deeper_look.rst', 'configuration.rst', 'quickstart.rst', 'basic.py', '__main__.py', 'default.cfg', 'main_utils.py', 'utils.py', '__init__.py', '__init__.py', 'commands.py', '__init__.py', 'commands.py', '__init__.py', 'commands.py', 'ease_of_access_options.py', 'global_options.py', 'output_options.py', 'render_options.py', 'constants.py', 'mobject.py', 'webgl_renderer.py', 'scene.py', 'scene_file_writer.py', 'ipython_magic.py', 'module_ops.py', 'space_ops.py', 'poetry.lock', 'pyproject.toml', 'test_commands.py', 'test_logging.py', 'test_plugins.py', 'test_quality_flags.py', 'test_caching_related.py', 'test_cli_flags.py', 'commands.py']"
+fa1b86f9c950fbe8e1ca5397b46f3bf93f95cf30,"Enhance manim banner animations (#1308)
+
+* test
+
+* revert test changes
+
+* Enhance create animation
+- Better Code readability
+- fix jumping triangle bug
+- Small fade in for spiraling shapes
+- Ease out rate function instead of smooth
+- allow run_time paramter
+
+* Add docs for run_time parameter
+
+* Simplify expand animation code
+
+* Change animation to uncover letters
+
+* Rework  expand animation
+
+* add run_time parameter to expand
+
+* Make expansion centered
+
+* add direction to expand
+
+* change direction default
+
+* Finishing touches
+- Slide back correctly aligned
+- documentation
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Fix bug in docs
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Fix bug related to memory usage issue
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix bug (now really)
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Update manim/mobject/logo.py
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* rename shape to shapes
+
+* remove unnecessary comment
+
+* fix remaining occurances of ""shape""
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+Co-authored-by: Naveen M K <naveen@syrusdark.website>",['65fa84ce06b7a4d7cd9415c2e06bff05307a2afa'],False,['logo.py']
+875f2d1f6d7ff0152fcaabb8e9544e74f75faee6,"Notify user if they are using an outdated version of Manim (#1237)
+
+* Notify user if local version is outdated
+
+Running the `manim` command will display the version number as green
+if it is the latest detected on GitHub. Otherwise, display the version
+number as red and let the user know that a newer version is available.
+
+* Black formatting
+
+* Add requests dependency
+
+* Switch to PyPi API since it's not ratelimited
+
+* Add CLI option for notifying local outdated build
+
+Manim will notify user if local installation is outdated, after
+rendering. This feature is enabled by default, but could be turned off
+in config.
+
+* Update notify_outdated_version instructions
+
+* Please the flake
+
+* Add documentation to configuration.rst
+
+* Update poetry.lock
+
+* Update option punctuation
+
+* No need to inform users if they're up to date
+
+* Move variable to within method
+
+* Remove unused import
+
+* Update dependencies
+
+* Update outdated version message
+
+* Run isort
+
+* Fix typo
+
+* Set `--notify_outdated_version` default to `None`
+
+Flag value by default is None so config file will determine the value.
+If flag is used then value is True.
+
+* Convert CLRF to Unix newline LF (cleaner diffs)
+
+* Remove argument check for outdated version
+
+Too verbose, value should be configured via config
+
+* Handle requests exceptions
+
+* Update manim/cli/render/commands.py
+
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Use f-strings for logger warnings
+
+* Update poetry.lock
+
+* Update manim/cli/render/commands.py
+
+Co-authored-by: KingWampy <9156604+WampyCakes@users.noreply.github.com>
+
+* Update manim/cli/render/commands.py
+
+Co-authored-by: KingWampy <9156604+WampyCakes@users.noreply.github.com>
+
+* Move print statements within try block
+
+* Except JSONDecodeError only
+
+* Update manim/cli/render/commands.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Update manim/cli/render/commands.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Don't raise exceptions, log in debug
+
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: KingWampy <9156604+WampyCakes@users.noreply.github.com>
+Co-authored-by: Naveen M K <naveen@syrusdark.website>",['b74ea538b25a7b86beb63ad9002b982e17053257'],False,"['configuration.rst', '__main__.py', 'default.cfg', 'utils.py', 'commands.py', 'global_options.py', 'poetry.lock', 'pyproject.toml']"
+7c8c1cb1d931168047022c8ab99bd4906d53cddd,"Grammatical error corrections in documentation (#1360)
+
+* Grammatical error correction of docs
+
+* Update contributing.rst
+
+* Update development.rst
+
+* Update development.rst
+
+* Update development.rst
+
+* Update for_dev.rst
+
+* Update docs/source/installation/for_dev.rst
+
+Co-authored-by: Darylgolden <darylgolden@gmail.com>
+
+* Update plugins.rst
+
+* Update reporting_bugs.rst
+
+* Update a_deeper_look.rst
+
+* Update configuration.rst
+
+* Update quickstart.rst
+
+* Update building_blocks.rst
+
+* Update testing.rst
+
+* Update testing.rst
+
+* Update versions.rst
+
+* Update a_deeper_look.rst
+
+* Update quickstart.rst
+
+* Update quickstart.rst
+
+* Update development.rst
+
+* Update development.rst
+
+* Update versions.rst
+
+* Update versions.rst
+
+* Update a_deeper_look.rst
+
+* Update building_blocks.rst
+
+* Change of complier and output format in
+ ""InCodeTexTemplate"" to the defaults
+
+* Reverted back
+
+* Change of Complier and Output format
+
+The Complier and Output format of class InCodeTexTemplate has been changed to the defaults (latex and .dvi)
+
+* Update customtex.py
+
+* Update building_blocks.rst
+
+* Update building_blocks.rst
+
+* Update a_deeper_look.rst
+
+Co-authored-by: Darylgolden <darylgolden@gmail.com>
+Co-authored-by: kilacoda <65204531+kilacoda@users.noreply.github.com>
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>",['cf67876ea137979f87bd322c1cf920535c429a0a'],False,"['contributing.rst', 'development.rst', 'documentation.rst', 'testing.rst', 'examples.rst', 'for_dev.rst', 'linux.rst', 'troubleshooting.rst', 'versions.rst', 'reporting_bugs.rst', 'a_deeper_look.rst', 'building_blocks.rst', 'configuration.rst', 'quickstart.rst']"
+80a1bfcd2f4e44991fb58a3d7f2d3ebce87177b0,"Add flake8 and isort in docs (#1376)
+
+* Grammatical error correction of docs
+
+* Update contributing.rst
+
+* Update development.rst
+
+* Update development.rst
+
+* Update development.rst
+
+* Update for_dev.rst
+
+* Update docs/source/installation/for_dev.rst
+
+Co-authored-by: Darylgolden <darylgolden@gmail.com>
+
+* Update plugins.rst
+
+* Update reporting_bugs.rst
+
+* Update a_deeper_look.rst
+
+* Update configuration.rst
+
+* Update quickstart.rst
+
+* Update building_blocks.rst
+
+* Update testing.rst
+
+* Update testing.rst
+
+* Update versions.rst
+
+* Update a_deeper_look.rst
+
+* Update quickstart.rst
+
+* Update quickstart.rst
+
+* Update development.rst
+
+* Update development.rst
+
+* Update versions.rst
+
+* Update versions.rst
+
+* Update a_deeper_look.rst
+
+* Update building_blocks.rst
+
+* Change of complier and output format in
+ ""InCodeTexTemplate"" to the defaults
+
+* Reverted back
+
+* Change of Complier and Output format
+
+The Complier and Output format of class InCodeTexTemplate has been changed to the defaults (latex and .dvi)
+
+* Update customtex.py
+
+* Update building_blocks.rst
+
+* Update building_blocks.rst
+
+* Update a_deeper_look.rst
+
+* Updated Code Style to include isort and flake8
+
+* Update
+
+* Update
+
+* Delete test.py
+
+* Update development.rst
+
+* Update development.rst
+
+* Update development.rst
+
+* Update development.rst
+
+* Update docs/source/contributing/development.rst
+
+Co-authored-by: kolibril13 <44469195+kolibril13@users.noreply.github.com>
+
+* Update development.rst
+
+Co-authored-by: Darylgolden <darylgolden@gmail.com>
+Co-authored-by: kilacoda <65204531+kilacoda@users.noreply.github.com>
+Co-authored-by: kolibril13 <44469195+kolibril13@users.noreply.github.com>",['7291e11987d14605d579812835a2e7a6ac98f9a5'],False,['development.rst']
+ac17f757a08fa0916d299f814c2280fb4aca9945,"Fix bug in :meth:`vector_coordinate_label` and move it to :class:`~.geometry.py` (#1407)
+
+* remove vector_coordinate_label, move to geometry.py, fix bug
+
+* black
+
+* documentation and example
+
+* apply suggestions from code review
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['b4b68a9c3b21ca8987c9495425b61899630b840d'],False,"['geometry.py', 'matrix.py', 'vector_space_scene.py']"
+edf0501ee59366497bb6492bf2424be17466b89d,"Restructure vector_field module and add documentation (#1347)
+
+* test
+
+* revert test changes
+
+* Remove unused start_points_generator_config
+
+* fix performance problem
+
+* add documentation to get_arc_length
+
+* black
+
+* change from deprecated update to interpolate
+
+* Add typing, documentation, examples to VectorField
+
+* add docs to VectorField.get_vector
+
+* change color gradient calculations
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Change VectorField to ArrowVectorField
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* remove unuesd imports
+
+* add nudge docs
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Finish VectorField docs
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Adjust ArrowVectorField documentation to reflect changes
+
+* fix background_image stuff and move to VectorField class
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Work on StreamLines
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* docs ArrowVectorField
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* merge
+
+* some cleanup
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix annoying bug in camara that cost me FAR to much time.
+
+* cleanup and docs
+
+* black
+
+* remove print in camera
+
+* StreamLines examples, docs, create method
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* move ShowPassingFlashWithThinningStrokeWidth to indication
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Move AnimatedStreamLines to StreamLines
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* add fade_out_animation
+
+* add docs exaple to fade_out_animation
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* rename to end_animation
+
+* fix inconsistancy in example
+
+* clean up imports
+
+* Apply suggestions from code review
+
+Co-authored-by: Darylgolden <darylgolden@gmail.com>
+
+* Update manim/mobject/vector_field.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* get_norm to np.linalg.norm
+
+* Add missing komma
+
+* move np.linalg.norm into __init__
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Reduce genration time  of examples
+
+* fix docs build issue
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* redo CI
+
+* Update manim/mobject/vector_field.py
+
+Co-authored-by: Oliver <44864613+PhotonSpheres@users.noreply.github.com>
+
+* Restart CI
+
+* Change from temporary image file to Image
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+Co-authored-by: Darylgolden <darylgolden@gmail.com>
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+Co-authored-by: Oliver <44864613+PhotonSpheres@users.noreply.github.com>",['9e88b64cd4af0ef1ae24400999a4a9aa28adb5d1'],False,"['indication.py', 'vector_field.py']"
+7248cf584ae941bad7a82b9ceab4ac26640e78d6,"Fix CLI bugs (#1431)
+
+* First draft at fixing CLI bugs
+
+Fixed output_file option
+
+Removed -h help flag from manim/manim render
+
+* Updated play logic test to use format = png
+
+* Added suggestions, fixed test cases
+
+* Revert file
+
+* Fix?
+
+* Append format to end of config_code
+
+* Update manim/cli/render/render_options.py
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Add format to default.cfg
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['7fa446cf544f5b0b4c16fff842d76a2493281df7'],False,"['manim_directive.py', '__main__.py', 'default.cfg', 'utils.py', 'commands.py', 'output_options.py', 'render_options.py', 'scene.py', 'scene_file_writer.py', 'file_ops.py', 'poetry.lock', 'pyproject.toml', 'graphical_units.py']"
+684065fa900662037dabce500b84a4557da58257,"Shader mobject (#1462)
+
+* Add Scene.embed_2
+
+* Don't overwrite Scene methods
+
+* Checks
+
+* Remove extra test
+
+* Add docstring
+
+* Allow rerunning the same Scene
+
+* Allow rerunning with file changes
+
+* Found how to kill terminal thread
+
+* Allow for skipping part of a preview
+
+* Add warning
+
+* break out of the loop if no rerun is requested
+
+* Add test shader code
+
+* Port a shader from shadertoy
+
+* Save in-progress work
+
+* Add Shader and Mesh classes
+
+* Rotation matrices
+
+* #INSERT -> #include
+
+* Render with Mesh instead of render groups
+
+* Add mesh updaters and FullscreenQuad
+
+* Beginning OrbitControls
+
+* OribitControls working
+
+* Attempt using a symmetric perpective projection
+
+* Fix OrbitControls and perspective projection
+
+* Remove unecessary changes
+
+* Add docstring for RerunSceneHandler
+
+* Move OrbitControls into Scene, simplify examples
+
+* Modification to matrix code, converting attributes to homogeneous coords
+
+* Add better camera controls
+
+* Check depth test
+
+* Debug some shaders
+
+* Cleanup for PR
+
+* Address pre-commit checks
+
+* Review comments
+
+* iterdir",['2a279be3fd22c10b61fb5a4df9ae6ff13e47dbb1'],False,"['opengl.py', 'commands.py', '__init__.py', 'opengl_renderer.py', 'shader.py', 'shader_wrapper.py', 'frag.glsl', 'vert.glsl', 'design.frag', 'design_2.frag', 'design_3.frag', 'vert.glsl', 'NOTE.md', 'add_light.glsl', 'camera_uniform_declarations.glsl', 'finalize_color.glsl', 'get_gl_Position.glsl', 'get_rotated_surface_unit_normal_vector.glsl', 'get_unit_normal.glsl', 'position_point_into_frame.glsl', 'quadratic_bezier_distance.glsl', 'quadratic_bezier_geometry_functions.glsl', 'frag.glsl', 'vert.glsl', 'frag.glsl', 'geom.glsl', 'vert.glsl', 'frag.glsl', 'geom.glsl', 'vert.glsl', 'simple_vert.glsl', 'frag.glsl', 'vert.glsl', 'frag.glsl', 'vert.glsl', 'frag.glsl', 'geom.glsl', 'vert.glsl', 'frag.glsl', 'vert.glsl', 'scene.py', 'opengl.py', 'space_ops.py']"
+57a90b79be0d204c07f9fc96497d99eb27622c7a,"Add SVG elliptical arc support (#1475)
+
+* Add SVG elliptical arc support to svg_path.py
+
+* Add SVG support for elliptical arcs
+
+* Add debug fixes from Mark Miller.  Add sweep limit case for elliptical arcs that are multiple of 90 degrees.
+
+* Add unit test for SVG elliptical arcs.  Add control data.
+
+* Cast type of stroke_width if it is string.
+
+* Fix black and isort.",['65d852f33c6939b1e0f75a88324715d11ce21963'],False,"['svg_path.py', 'vectorized_mobject.py', 'Arcs01Test.npz', 'Arcs02Test.npz', 'HalfEllipseTest.npz', 'arcs01.svg', 'arcs02.svg', 'half_ellipse.svg', 'test_img_and_svg.py']"
+df7a2f5dfcd5804ec71b6b4f58c346d3a9ff78c8,"Build the docs - Logging  (#1461)
+
+* test
+
+* revert test changes
+
+* first logging changes
+
+* fix unrelated typo
+
+* change to logging
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Save logs to csv file for later reading it
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix makefile issues
+
+* remove unnecessary comments
+
+* clean up manim_directive
+
+* fix local var bug
+
+* Show log only if examples have been rendered
+
+* Move controll from makefile to sphinx events
+
+* remove added blank line
+
+* remove rendering_summary file
+
+* fix slight regex problem
+
+* comment out code in question
+
+* change encoding
+
+* re-add code
+
+* switch to build-finished event
+
+* fix indentation bug
+
+* use csv module
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>
+
+* Use Pathlib
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>
+Co-authored-by: Jan-Hendrik Müller <44469195+kolibril13@users.noreply.github.com>",['1104f2d7255f026e4942536ffe2e48567da6f680'],False,"['.gitignore', 'Makefile', 'manim_directive.py', 'mobject.py']"
+71b86d5dfa83f9d3c2e4cea8471c369f599827ef,"Deprecation Decorators (#1404)
+
+* test
+
+* revert test changes
+
+* finish draft implementation
+
+* use @wrapss to remove docs problems
+
+* reduce complexity and add doc deprecation
+
+* Docs deprecated_params
+
+* add decoratos to __init__
+
+* Add decorators to documentation
+
+* Finish detailed docs
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Apply suggestions from code review
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* change since/until/message param docs
+
+* Mark get_callable_info and deprecation_text_component as private
+
+* change how until is included in warning messages
+
+* Add The to prameter descriptions
+
+* is deprecated => has been deprecated
+
+* Fix typo
+
+* fix typo
+
+* make params docs more readable
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* make redirections docs clearer
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Fix typo
+
+* fix typo
+
+* fix typo
+
+* is_are => has_have_been
+
+* fix typo
+(at this point I am questioning my ability to type prameter)
+
+* update deprendency list
+
+* order dependencies
+
+* update examples
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix dependeny problem
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix duplicate problem
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* change decorator version
+
+* updated lock file
+
+* enhance function / method separation
+
+* fix typo and double underscores
+
+* rename message_ and replacement_
+
+* Change warning to custom admonition
+
+* remove [] as default parameters
+
+* Remove """" around type
+
+* fix typo
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix bug and move to inspect
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* doc string => docstring
+
+* rename to deprecate
+
+* change module docstring
+
+* change to deprecation.py
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* some sugesstions
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* remove tests again
+
+* Rename decorators.py to deprecate.py
+
+* Update poetry.lock
+
+* Test if deprecated class outputs the correct warning when used
+
+* Rename deprecate to deprecation
+
+* Fix typos
+
+* Shorten conditional for msg
+
+* Shorten conditional for since
+
+* Shorten conditional for until
+
+* Specify decorator arguments in test
+
+* Add tests for since and until arguments
+
+* Add test for since and until as arguments
+
+* Add test for msg argument for class
+
+* Add test for replacement argument for class
+
+* Remove unneeded docstring in deprecated class
+
+* Add test for deprecate method, no args
+
+* Update docstring examples, move deprecated method outside class
+
+* Add test for method in class, since and message args
+
+* Add test for deprecating nested class
+
+* Add test for deprecated method in nested class
+
+* Test deprecation of nested function
+
+* Test param deprecation, only params argument
+
+* Test deprecation of single method param
+
+* Rename single param test method name
+
+* Fix deprecated_params docstring whitespace
+
+* Test parameter redirection using tuple
+
+* Update warning msgs in deprecated_params docstring
+
+* Test parameter redirection using lambda function
+
+* Test param redirection from many to one
+
+* Test param redirection from one to many
+
+* Update Top.foo to deprecate with message
+
+* handle empty docstrings
+
+* fix typo
+
+* Update poetry.lock
+
+* Update poetry.lock
+
+* Deprecate ShowCreation using decorator to test the docs
+
+* Test docstring for deprecated class
+
+* Test docstring for Bar and Baz classes
+
+* Test docstrings for the rest of the classes
+
+* Test docstrings for Top methods
+
+* Test docstrings for Top.Nested
+
+* Test docstring for nested method
+
+* Move deprecations to deprecation system
+
+* Some more deprecations
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix version numbering inconsistancies
+
+* Fix naming issue and MetaClass handling
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* restart CI
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+Co-authored-by: Ricky Chon <rickychon99@gmail.com>
+Co-authored-by: Jan-Hendrik Müller <44469195+kolibril13@users.noreply.github.com>",['836278922a5da49a85854df8dd6050b03dc8b0ab'],False,"['reference.rst', 'animation.py', 'creation.py', 'indication.py', 'numbers.py', 'opengl_geometry.py', 'opengl_tex_mobject.py', 'svg_path.py', 'debug.py', 'deprecation.py', 'space_ops.py', 'poetry.lock', 'pyproject.toml', 'template_docsting_with_example.py', 'test_deprecation.py']"
+da4f4e026d498d970b689e9b0b6e0d1144994e29,"Added :func:`~.override_animation` decorator (#1422)
+
+* Basic functionality
+
+* Add option use_default
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix enheritance issue
+
+* fix test problem
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* move decorator to own file
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Fix bug and add test file
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* add tests
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* improved tests
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* remove unused imports
+
+* remove unused imports
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Add docs and enhance tests
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix tests
+
+* animation_class to snake_case
+
+* Move to __init_subclass__
+This required to move the animation overrides
+dict to the Mobject class due to circular import
+problems
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Update manim/animation/override_animation.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Update manim/animation/override_animation.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix relative import error
+
+* fix typing problems
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Architecture refactoring
+(suggested by friedkeenan)
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* add debug message
+
+* Update docs/source/reference.rst
+
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>
+
+* rename to animation_override_for
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>
+
+* Update manim/animation/animation.py
+
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>
+
+* Move type annotation
+
+* Give animation_overrides to Mobejct as well
+
+* Add docs and typing
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* remove unnecessary import
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>
+
+* Restart CI
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>
+Co-authored-by: Hugues Devimeux <36239975+huguesdevimeux@users.noreply.github.com>",['567f0c6dc995eb740d94854f105deac3b6f21637'],False,"['animation.py', 'logo.py', 'mobject.py', 'exceptions.py', 'test_override_animation.py']"
+15261ea65b4f81578c088a795d409bb37f98e927,"Fading module enhancements (#1454)
+
+* finish draft implementation
+* use @wrapss to remove docs problems
+* reduce complexity and add doc deprecation
+* Docs deprecated_params
+* add decoratos to __init__
+* Add decorators to documentation
+* Finish detailed docs
+* Apply suggestions from code review
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* change since/until/message param docs
+* Mark get_callable_info and deprecation_text_component as private
+* change how until is included in warning messages
+* Add The to parameter descriptions
+* make params docs more readable
+* make redirections docs clearer
+* update dependency list
+* order dependencies
+* update examples
+* fix dependency problem
+* fix duplicate problem
+* change decorator version
+* updated lock file
+* enhance function / method separation
+* fix typo and double underscores
+* rename message_ and replacement_
+* Change warning to custom admonition
+* remove [] as default parameters
+* Remove """" around type
+* fix bug and move to inspect
+* doc string => docstring
+* rename to deprecate
+* change module docstring
+* change to deprecation.py
+* remove tests again
+* Rename decorators.py to deprecate.py
+* Update poetry.lock
+* Test if deprecated class outputs the correct warning when used
+* Rename deprecate to deprecation
+* Shorten conditional for msg, since, util
+* Specify decorator arguments in test
+* Add tests for since and until as arguments
+* Add test for msg argument for class
+* Add test for replacement argument for class
+* Remove unneeded docstring in deprecated class
+* Add test for deprecate method, no args
+* Update docstring examples, move deprecated method outside class
+* Add test for method in class, since and message args
+* Add test for deprecating nested class
+* Add test for deprecated method in nested class
+* Test deprecation of nested function
+* Test param deprecation, only params argument
+* Test deprecation of single method param
+* Rename single param test method name
+* Fix deprecated_params docstring whitespace
+* Test parameter redirection using tuple
+* Update warning msgs in deprecated_params docstring
+* Test parameter redirection using lambda function
+* Test param redirection from many to one
+* Test param redirection from one to many
+* Update Top.foo to deprecate with message
+* FadeIn & FadeOut overhaul and deprecations
+* Adjust examples
+* Add docs
+* Add simple example
+* handle empty docstrings
+* Update poetry.lock
+* Deprecate ShowCreation using decorator to test the docs
+* Test docstrings
+* add examples
+* Update example_scenes/basic.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+Co-authored-by: Ricky Chon <rickychon99@gmail.com>
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>",['da4f4e026d498d970b689e9b0b6e0d1144994e29'],False,"['examples.rst', 'basic.py', 'fading.py', 'indication.py', 'transform_matching_parts.py', 'vectorized_mobject.py', 'test_composition.py', 'test_creation.py']"
+f173192c7ac4f1a18f6981f22a24fcbec35d36cd,"Improved handling of substring isolation within sqrt, and fixed a bug with transform_mismatch for the matching shape transforms (#1527)
+
+* improve handling of substring isolation within sqrt
+
+* fix odd fadein/fadeout behavior of TransformMatchingAbstractBase
+
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>",['cd23cf1b0c7fd8663b0b6f4e023d9a4a34e996a5'],False,"['transform_matching_parts.py', 'tex_mobject.py']"
+f6d63d78e9c3caca5a673b676124741a94ca3376,"Refactored scene caching and fixed issue when a different hash was produced when copying a mobject in the scene  (#1211)
+
+* refactored scene caching
+
+* black
+
+* Added docstrings
+
+* fixed tests
+
+* Fixed tests
+
+* woops
+
+* docs and small refactor
+
+* changed back memoization in encode
+
+* last fixes
+
+* fixed copy making the hash unconsistent
+
+* added keys to filter out option
+
+* merge conflicts oops
+
+* Fixed tests
+
+* Update manim/utils/hashing.py
+
+* Apply suggestions from code review
+
+* Update manim/utils/hashing.py
+
+* (Hopefully) fixed CI tests
+
+* Fixed ytpo
+
+* Fixed again tests ?
+
+* one mooore time
+
+* Fixed test by adressing the possibilties of multiple hashes produced
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Fixed typo -_-
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* REmoved debug var
+
+* Format
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+Co-authored-by: kilacoda <kilacoda@gmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>",['b726b40089a58a4684725d7216b01d8400ffb2bf'],False,"['hashing.py', 'test_hashing.py', 'test_cairo_renderer.py']"
+2c8790a82af77ff62aa044f4eb842a1144eaece4,"Porting methods from :class:`GraphScene` to :class:`CoordinateSystem` (#1472)
+
+* revert NumberPlane box and minor changes to other classes
+
+* replace width in config with x_length
+
+* fix tests
+
+* comment out test
+
+* get_graph label + dot mechanics
+
+* remove graph_label from graphscene
+
+* port over i2gp documentation + typing
+
+* port over angle_of_tangent + docs + typing
+
+* fix get_projection
+
+* get_riemann rectangles + move get_graph_label
+
+* doc changes to i2gp
+
+* slope of tangent and get_derivative
+
+* adjust get_axist label to allow more than mathtex
+
+* fix dot_config
+
+* remove default parameters from graph_get_label
+
+* reordering + minor doc changes
+
+* get_secant_slope_group
+
+* get_vertical_lines_to_graph
+
+* add_t_label converted + example + dics + portability +
+
+* static method
+
+* doc touchups + bugfix in get_graph
+
+* bring back get_graph_label in graphscene
+
+* bring back get_graph_label in graphscene pt2
+
+* bring back get_graph_label in graphscene pt 3
+
+* suggestions from code review + two bug fixes + documentation edits
+
+* hardcode width_scale_factor + edits
+
+* added docs for label methods
+
+* fix get_graph's t_range issue, tuple issue and spam np.array in functions.py
+
+* forgot movbject quotes + get_Graph fix
+
+* x_range
+
+* add defaults for coordinate_system
+
+* oops passed x_range not t_range for get_graph
+
+* minor docs fix + restore width_Scale_factor
+
+* add numbers_to_include for number_line
+
+* added get_area, bounded_graph and blend
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix: none can be specified for get_area + minor changes
+
+* forgot self.origin_shift
+
+* bad at git
+
+* minor change to numberline.py: defaults rounded + numbers_to_include removes need for include_numbers
+
+* fix: get_projection actually works now
+
+* fix typing
+
+* precommit + missing import
+
+* botched imports
+
+* improve logic for add_numebrs, (maybe sets?)
+
+* fix self.numbers_to_include and add tips parameter that makes tip removal easy
+
+* Apply suggestions from code review
+
+Co-authored-by: Abhijith Muthyala <73361366+abhi3019@users.noreply.github.com>
+
+* remove some unnecessary np.array
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+Co-authored-by: Abhijith Muthyala <73361366+abhi3019@users.noreply.github.com>",['0f8718ab8ea68ee580f7b8ea8abca7301ddca9f0'],False,"['coordinate_systems.py', 'functions.py', 'geometry.py', 'number_line.py']"
+8691284496baee95605384ae7889da69cbd3ff12,"Update examples to use :class:`Axes` and deprecate :class:`GraphScene` (#1598)
+
+* revert NumberPlane box and minor changes to other classes
+
+* replace width in config with x_length
+
+* fix tests
+
+* comment out test
+
+* get_graph label + dot mechanics
+
+* remove graph_label from graphscene
+
+* port over i2gp documentation + typing
+
+* port over angle_of_tangent + docs + typing
+
+* fix get_projection
+
+* get_riemann rectangles + move get_graph_label
+
+* doc changes to i2gp
+
+* slope of tangent and get_derivative
+
+* adjust get_axist label to allow more than mathtex
+
+* fix dot_config
+
+* remove default parameters from graph_get_label
+
+* reordering + minor doc changes
+
+* get_secant_slope_group
+
+* get_vertical_lines_to_graph
+
+* add_t_label converted + example + dics + portability +
+
+* static method
+
+* doc touchups + bugfix in get_graph
+
+* bring back get_graph_label in graphscene
+
+* bring back get_graph_label in graphscene pt2
+
+* bring back get_graph_label in graphscene pt 3
+
+* suggestions from code review + two bug fixes + documentation edits
+
+* hardcode width_scale_factor + edits
+
+* added docs for label methods
+
+* fix get_graph's t_range issue, tuple issue and spam np.array in functions.py
+
+* forgot movbject quotes + get_Graph fix
+
+* x_range
+
+* add defaults for coordinate_system
+
+* oops passed x_range not t_range for get_graph
+
+* minor docs fix + restore width_Scale_factor
+
+* add numbers_to_include for number_line
+
+* added get_area, bounded_graph and blend
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix: none can be specified for get_area + minor changes
+
+* forgot self.origin_shift
+
+* bad at git
+
+* minor change to numberline.py: defaults rounded + numbers_to_include removes need for include_numbers
+
+* fix: get_projection actually works now
+
+* fix typing
+
+* precommit + missing import
+
+* botched imports
+
+* improve logic for add_numebrs, (maybe sets?)
+
+* fix self.numbers_to_include and add tips parameter that makes tip removal easy
+
+* update all examples which reference GraphScene
+
+* fix indentation
+
+* increase rects in example + make label white
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['0690508b580a58825721a1bd4206592bb420dd14'],False,"['examples.rst', 'coordinate_systems.py', 'functions.py', 'number_line.py', 'graph_scene.py', 'moving_camera_scene.py']"
+0d7e96dc82c7f6096da0e3bb035ebb7e0faf0cef,"Revert default template and add new templates (#1621)
+
+* Added bugfix and documentation templates
+
+Renamed hackathon and default templates
+
+Try fewer frontmatters
+
+Revert name of default template
+
+Revert name of default template
+
+Added bugfix and documentation templates
+
+Try fewer frontmatters
+
+Revert name of default template
+
+* Removed frontmatters",['054d91544e6d49a4d43e7fa0d7672df867efd416'],False,"['PULL_REQUEST_TEMPLATE.md', 'bugfix.md', 'documentation.md', 'hackathon.md']"
+e4d00b5eb2b72c8b50d8af5bded75acec5d8322a,"Fixed a few CLI and rendering bugs (#1595)
+
+Co-authored-by: Darylgolden <darylgolden@gmail.com>",['d19d59f256ef465392d394b8661aad0b68815c17'],False,"['scene_file_writer.py', 'file_ops.py', 'test_cli_flags.py']"
+a6f246738871e0b868349f73432a31e5da3bc9c4,"Fixed bugs and added examples to methods and classes in matrix.py (#1636)
+
+* Init
+
+* Added Examples
+
+* Minor changes
+
+* Black/Isort/Flake8
+
+* test
+
+* I hope this works
+
+* Changed docstring layout
+
+* Changed layout
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix
+
+* fix
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix
+
+* fix
+
+* minor
+
+* added slashes
+
+* tabs
+
+* Testing different slashes
+
+* black/flake/isort
+
+* Improve layout
+
+* Fixed Typo
+
+* Polishing changes
+
+* flake8
+
+* Fixed Typo
+
+* Bug-Fix
+
+* Change Background
+
+* Changed background",['1e01feb70dccbe493d173ef76046a3d1b851e685'],False,['matrix.py']
+934f133f2b85315a63c8354dfecc92a0d6990686,"Fix bug when using Text with the opengl renderer. (#1729)
+
+* the fix
+
+* better fix",['b78f13edfa5138e6365cb6e5158980624a74cf8a'],False,['opengl_mobject.py']
+c7ced02196fb8864985492145b0c19bbbb938972,"Metaclass compatibility for `coordinate_system.py`, `Code` and `ParametricSurface` (#1735)
+
+* code metaclass
+
+* axes metaclass
+
+* make 3d axes and vmob work
+
+* make code work (still bugged though)
+
+* drop typo
+
+* dropped period too, oops
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['f66ec96102b9f3e4149d5c8e23a554eb65b2ebac'],False,"['coordinate_systems.py', 'code_mobject.py', 'three_dimensions.py']"
+c79034ea29a1100bdb2d346feaaf212e39c45f3a,"Added `.set_fill_by_value()` to :class:`~.ParametricSurface` (#1686)
+
+* Added color gradient by value to parametric surfaces
+
+* Corrected example code for documentation
+
+* Additional adjustments to example code
+
+* Some more adjustments to example code
+
+* Update manim/mobject/three_dimensions.py
+
+I'm fine with this.
+
+Co-authored-by: Hugues Devimeux <36239975+huguesdevimeux@users.noreply.github.com>
+
+* Added example to :class:`~.NumberLine` (#1681)
+
+* Update number_line.py
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Update manim/mobject/number_line.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/number_line.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/number_line.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Update number_line.py
+
+* Update manim/mobject/number_line.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update number_line.py
+
+* Update manim/mobject/number_line.py
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Updated imports in `geometry.py` and added example to :class:`~.Arrow` (#1687)
+
+* Updated imports in `geometry.py` and added example to :class:`~.Arrow`
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update geometry.py
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Added example and parameter description to :class:`~.AnnularSector` (#1685)
+
+* Added example and parameter description to :class:'AnnularSector'
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Nikhil Garuda <34582615+Nikhil0504@users.noreply.github.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Nikhil Garuda <34582615+Nikhil0504@users.noreply.github.com>
+
+* Update manim/mobject/geometry.py
+
+Co-authored-by: Nikhil Garuda <34582615+Nikhil0504@users.noreply.github.com>
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Nikhil Garuda <34582615+Nikhil0504@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Add a tutorial for using :class:`~.Text` and :class:`Tex` (#1510)
+
+* Add a tutorial for using :class:`~.Text`
+
+* Add gradient example
+
+* Add disabling ligature tutorial
+Move PangoMarkup to reference of MarkupText
+
+* Add docs of using Colors, t2g and t2c
+Also, fix issues issues between Color and Colour
+
+* use save_last_frame whereever necessary
+
+* More docs on Fonts, weights, slants
+
+* fix docs built
+
+* fix build
+
+* typo
+
+* fix build
+
+* Try fixing the build
+
+* Fix indent
+
+* Fix indent
+
+* Change class name
+
+* Fix link
+
+* Update examples
+
+* Add small desc about MarkupText
+
+* Basic LaTeX tutorials
+
+* typo: seperately ==> separately
+
+* add a missing `
+
+* Update using_text.rst
+
+* Update using_text.rst
+
+* Update tex_mobject.py
+
+* Update using_text.rst
+
+* Update tex_mobject.py
+
+* Update using_text.rst
+
+* Update using_text.rst
+
+* Apply suggestions from code review
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Apply suggestions from code review
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Apply suggestions from code review
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update docs/source/tutorials/using_text.rst
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* change title
+
+* add ref to tutorial
+
+* Fix small error
+
+* Fix syntax
+
+* Apply suggestions from code review (1st)
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Apply suggestions from code review
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Update docs/source/tutorials/using_text.rst
+
+* try to get link syntax right
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Added Example for :class:`~.CoordinateSystem` (#1690)
+
+* Added Example for :class:`~.CoordinateSystem`
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Update coordinate_systems.py
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Update manim/mobject/coordinate_systems.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* remove accidental font_size
+
+* maybe fixes doc error?
+
+* \frac
+
+* \over (??)
+
+* double brace syntax 🤔
+
+* explain syntax error and proper setting of label
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Rewrite stroke and fill shaders (#1716)
+
+Rewrite vectorized mobject shaders to be compatible with transformation matrices.
+
+* Added Example to :class:`~.PMobject` (#1698)
+
+* Added Example to :class:`~.PMobject`
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Update manim/mobject/types/point_cloud_mobject.py
+
+Co-authored-by: Jan-Hendrik Müller <44469195+kolibril13@users.noreply.github.com>
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Jan-Hendrik Müller <44469195+kolibril13@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Exit gracefully if no scene was chosen (#1713)
+
+* Exit gracefully if no scene was choosen
+
+* Update module_ops.py
+
+* Use logging system instead of print statement
+
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>
+
+* Update manim/utils/module_ops.py
+
+Co-authored-by: Naveen M K <naveen521kk@gmail.com>
+
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>
+Co-authored-by: Naveen M K <naveen521kk@gmail.com>
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+
+* Fix bug when using Text with the opengl renderer. (#1729)
+
+* the fix
+
+* better fix
+
+* OpenGL compatibility via metaclass: Matrix, DecimalNumber, Variable (#1585)
+
+* OpenGL support
+
+* remove opengl_value_tracker
+
+* fix flake8
+
+* switch to relative import
+
+* Fix inheritence graph background color (#1734)
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* docs: remove reference of `--plugins` (#1732)
+
+`--plugins` flag isn't implemented but it was mentioned in the
+documentation. I have removed it.
+
+* [pre-commit.ci] pre-commit autoupdate (#1691)
+
+* [pre-commit.ci] pre-commit autoupdate
+
+updates:
+- [github.com/psf/black: 21.5b2 → 21.6b0](https://github.com/psf/black/compare/21.5b2...21.6b0)
+- [github.com/pycqa/isort: 5.8.0 → 5.9.1](https://github.com/pycqa/isort/compare/5.8.0...5.9.1)
+- [github.com/codespell-project/codespell: v2.0.0 → v2.1.0](https://github.com/codespell-project/codespell/compare/v2.0.0...v2.1.0)
+
+* fix typos
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* fix pillow to <8.3.0 (#1740)
+
+* Metaclass compatibility for `coordinate_system.py`, `Code` and `ParametricSurface` (#1735)
+
+* code metaclass
+
+* axes metaclass
+
+* make 3d axes and vmob work
+
+* make code work (still bugged though)
+
+* drop typo
+
+* dropped period too, oops
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Added color gradient by value to parametric surfaces
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Apply suggestions from code review
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Update manim/mobject/three_dimensions.py
+
+* Revert ""Update manim/mobject/three_dimensions.py""
+
+This reverts commit bccdc679802c1ecbb7eedc642922b3e030b456c3.
+
+* already imported, not necessary to import again
+
+Co-authored-by: Darylgolden <darylgolden@gmail.com>
+Co-authored-by: Hugues Devimeux <36239975+huguesdevimeux@users.noreply.github.com>
+Co-authored-by: MathInvariance <85428162+MathInvariance@users.noreply.github.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+Co-authored-by: Nikhil Garuda <34582615+Nikhil0504@users.noreply.github.com>
+Co-authored-by: Naveen M K <naveen@syrusdark.website>
+Co-authored-by: Devin Neal <devin@eulertour.com>
+Co-authored-by: Jan-Hendrik Müller <44469195+kolibril13@users.noreply.github.com>
+Co-authored-by: yit6 <70917928+yit6@users.noreply.github.com>
+Co-authored-by: Jason Villanueva <a@jsonvillanueva.com>
+Co-authored-by: Naveen M K <naveen521kk@gmail.com>
+Co-authored-by: Mohammad Al-Fetyani <m4bh@hotmail.com>",['df758a2e5e7e25f7b83875f7285cbf5e57c2f074'],False,"['three_dimensions.py', 'SurfaceColorscaleTest.npz', 'test_threed.py']"
+11df83125c9998a4df9ac5d0a3b7edbfc2de17e1,Fix bug (#1786),['5a4a1d2fa973c3dfb0831f384935e45805a0a0d7'],False,['numbers.py']
+7e6991e7aec93682eb4bc6586f1fc3c2f4b08a73,"Refactored graphical unit testing system, and implemented multi frames tests. (#1802)
+
+* Added file_writer class parameters to renderers
+
+* Refactored test system
+
+* Changed back
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Fixed typo
+
+* Fixed tests
+
+* Fixed typos
+
+* Reverted deleted line
+
+* Apply suggestions from code review
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Renamed FramesTester and removed unused imports
+
+* renamed variable
+
+* Apply suggestions from code review
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Renamed control data
+
+Fixed bug when the error if scene was not an argument was not raised
+
+Fixed path of control data.
+
+* Fixed wrong path and introduced two configs
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* typo
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['ce89fa5b043383420519fd8a8cdf9b763c7f2755'],False,"['cairo_renderer.py', 'opengl_renderer.py', 'conftest.py', '_frames_testers.py', '_show_diff.py', '_test_class_makers.py', 'config_graphical_tests_monoframe.cfg', 'config_graphical_tests_multiframes.cfg', 'frames_comparison.py']"
+70041f51ae52d3c43fa4854be7570306c4820011,"Fixed example in gallery to allow a two-dimensional mean (#1845)
+
+* examples-bug-1730
+
+* Code reformated according to the suggestions - Issue #1730",['e2d9ee45f5e9b194949a57d2d58539393b359624'],False,['examples.rst']
+9db9f7c4489ce2d2748c11c234bd473e6e22cbcb,"New Mobject: Added :class:`~.Tabular` (#1677)
+
+* Init
+
+* Added_lines
+
+* stuff
+
+* more stuff
+
+* Added Examples
+
+* black,isort,falke8
+
+* Added to __init__
+
+* Bugfix
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Added to reference.rst
+
+* Added docstrings
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Added examples
+
+* Added Docstrings and outer Lines
+
+* Added Docstrings
+
+* Added Docstrings and Examples
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Bugfix
+
+* Removed Dummy-Mobject
+
+* black/isort/flake8
+
+* Special create function
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Minor bugfix
+
+* create() and docs
+
+* Improved Docstrings
+
+* Improved docstring
+
+* -
+
+* Bugfix in docs
+
+* Added ability to grab specific elements
+
+* Added ability to grab specific labels
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Fixed f- string ValueError
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* bug-fix
+
+* Improved Docstrings
+
+* Added type hints
+
+* bug fix
+
+* improved typehints
+
+* Improved Docstrings
+
+* Added docstrings
+
+* Added example for background
+
+* Improved Docstrings and type hints
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* black
+
+* Improved Docstrings
+
+* bug fix
+
+* codespell
+
+* Highlight cells
+
+* codespell
+
+* Improved Examples
+
+* Added graphical tests
+
+* black/isort/flake8
+
+* Changed test
+
+* Testing the tests
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* minor changes
+
+* minor changes
+
+* opengl-compatibility
+
+adjusted `OpenGLMobject`'s arrange in grid and added imports
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* get_highlighted_cell to add_highlighted_cell
+
+* added test
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* removed one test
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Ideas from Hydrobeam
+
+* Fixed Docstrings
+
+* canged super()
+
+* Private methods
+
+* cleaned template, added test
+
+* retrigger checks
+
+* changed references.rst
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* added to reference_index
+
+* fixed test
+
+* fixed tests
+
+* Added docstrings
+
+* Codespell
+
+* spaces
+
+* color and docs
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* codespell
+
+* add a config import
+
+gonna do a few checks for renderer=opengl
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* Hydrobeam suggestions
+
+* Update manim/mobject/tabular.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* color to background
+
+* typos
+
+* added color parameter to method
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>",['70041f51ae52d3c43fa4854be7570306c4820011'],False,"['mobjects.rst', '__init__.py', 'opengl_mobject.py', 'tabular.py', 'DecimalTabularTest.npz', 'IntegerTabularTest.npz', 'MathTabularTest.npz', 'MobjectTabularTest.npz', 'TabularTest.npz', 'test_tabular.py']"
+3cd2a277803222fb5181bd5f3321a52a87f0ac5f,"Allow non-numerical values to be added to :class:`~.NumberLine`/:class:`~.Axes` (#1780)
+
+* add add_labels for number_line
+
+* fix bug in add_numbers
+
+* change to self
+
+* drop add_coordinate_labels
+
+* add somed docs
+
+* improve docs
+
+* forgot :class:
+
+* fix typing
+
+* remove redundancies
+
+* typing error
+
+* dict --> Dict
+
+* introduce scaling in `add_labels` 
+
+quite annoying to manually adjust size (especially without `font_size`)
+
+* added tests
+
+* don't use Text in testing",['3ac72fed0e95a57e7128c862e0161ac01fc782de'],False,"['coordinate_systems.py', 'number_line.py', 'custom_coordinates.npz', 'test_axes.py', 'test_number_line.py']"
+463975455de51463acc1bbb3ed2b4a3a932573d0,"Fix :class:`~.NumberPlane` bug with positive/negative `x_range`/`y_range` values. (#1744)
+
+* fix numberplane so that you can have have positive or negative only (x/y)_ranges
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Update manim/mobject/coordinate_systems.py
+
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+
+* add in beginnings of test
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* add in work for tests
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* remove confusing comment
+
+* fix the test
+
+* fix some typing
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+Co-authored-by: hydrobeam <laithbahodi@gmail.com>",['f5f4edfc902c9946a9fb18637a313c1ff86e2cc3'],False,"['coordinate_systems.py', 'test_coordinate_system.py']"
+f7ed88008b9fa964789052de28e2bc746e87b23a,"Add `font_size` parameter for `Tex` and `Text` mobjects.  (#1694)
+
+* refactor numbers.py, numbers.py now uses font_size, adjust constants in tex_mobject.py and text_mobject, remove uses of number_scale_value in favour of font_size
+
+* adjust PolarPlane to use font_size instead of scaling
+
+* some of the docs have been changed to use font_size, adjust constant and add font_size to markup text
+
+* accurate scale factors
+
+* code mobject compatibility with font_size
+
+* number_line now takes font_size
+
+* make tests work
+
+* cleanup
+
+* deprecated test raised error, fixed
+
+* typing for NumberLine
+
+* fix misbehaving test
+
+* actually fix set_value
+
+* use native font_size scaling for text_mobject.py
+
+* add constant and adjust BraceLabel
+
+* fix change_label
+
+* drop scale_factor for Title
+
+* add some supers
+
+* maybe fixes import issues
+
+* numberplanetest
+
+* the merge conflict is over and the tests run
+
+* add test for tex_size
+
+* some changes to the docs
+
+* properly deprecate instead of removing
+
+* move deprecations to __init__
+
+* drop the config
+
+* deprecate number_Scale_value
+
+* update version number for deprecation
+
+* adjust test precision
+
+* if TYPE_CHECKING check
+
+* adjust Using Text
+
+* add font_size parameters for numberline and fix bug with decimal_number_config
+
+* make set_value work with opengl
+
+* make kwarg
+
+* fix typo
+
+* another typo
+
+* change dates
+
+* add font_size property for tex_mobjects
+
+* _font_size instead of font_size (prep for prop)
+
+* accidental bugfix, handle separately)
+
+* generalize text2svg
+
+* add font_size property for text_mobject.py
+
+* add check for greater than 0
+
+* Attribute error in dd_labels
+
+* str for attr in hasattr
+
+* rewrite and fix tests
+
+* remove debugging print
+
+* fix error when self.height ==0
+
+* Apply suggestions from code review
+
+Co-authored-by: Darylgolden <darylgolden@gmail.com>
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* revert accidental @deprecated change
+
+* fix error in line_spacing
+
+* slight fixes
+
+* use private attribute when checking for font_size in add_labels()
+
+* raise a Value error when font_size < 0 + improve docs
+
+* Apply suggestions from code review
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* deprecate azimuth_label_scale and use more descriptive deprecation message
+
+* wrong number of dots for an import
+
+* add font_size property for decimalmobject
+
+* return to using public attribute
+
+* remove redundant constant
+
+* add comment
+
+Co-authored-by: Darylgolden <darylgolden@gmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['44f2f3704400545ec65bfcf1705474a0e66dba1b'],False,"['examples.rst', 'building_blocks.rst', 'using_text.rst', 'basic.py', 'animation.py', 'creation.py', 'constants.py', 'coordinate_systems.py', 'geometry.py', 'number_line.py', 'numbers.py', 'brace.py', 'code_mobject.py', 'tex_mobject.py', 'text_mobject.py', 'number_plane.npz', 'NumberPlaneTest.npz', 'PlotFunctions.npz', 'DecimalTable.npz', 'IntegerTable.npz', 'test_texmobject.py']"
+d08112abaf5435a5f3f694ce93d35199357161ad,"Fix :attr:`.Axes.coordinate_labels` referring to the entire axis, not just its labels. (#1967)
+
+* bug fix
+
+* try out adding ivar description
+
+* document the attribute properly
+
+* forgot dots
+
+* add newline directly after Attributes
+
+* change how attribute is communicated
+
+* Apply suggestion from code review
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['13903ed8e0cb39bd41ebe6cf11b35bf4785ebdc9'],False,['coordinate_systems.py']
+a558d3751fcf6b0cc35b6b921476d51968691214,"Fix `vector_to_coords()` bug in :class:`~.VectorScene`. (#1871)
+
+* Update vector_space_scene.py
+
+* switch from attribute to method
+
+Co-authored-by: Oliver <44864613+PhotonSpheres@users.noreply.github.com>
+
+* add test
+
+* remove debugger comment
+
+Co-authored-by: Oliver <44864613+PhotonSpheres@users.noreply.github.com>
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+Co-authored-by: hydrobeam <laithbahodi@gmail.com>",['d184d35b7b98d717c8304af4586e30e83eac8992'],False,"['vector_space_scene.py', 'vector_to_coords.npz', 'test_vector_scene.py']"
+c11b649e9aed34976844e6a131fb12e2a30c7bc8,"Added proportion_from_point method to VMobject, which uses some new bezier curve utilities (#1469)
+
+* Add function to get the bezier curve parameter given a point and the bezier's control points.
+Add function to determine if a point lies on a bezier curve.
+
+* Add method to get_nth_curve_length
+Add method to get the proportion along the path of the VMobject a particular point is.
+
+* Added type hints and docstrings to added bezier functions.
+Added better docstrings to added VMobject methods.
+Ran black on both files.
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Apply some of @friedkeenan 's suggestions
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Fix an incorrect import.
+
+* Changed root filter to be more readable.
+Removed CLOSED_THRESHOLD as it was unused everywhere else in the library
+Added round_to parameter to replace CLOSED_THRESHOLD
+Set default value of round_to to 1e-6, which is the same as VMobject.tolerance_for_point_equality
+
+* Simplify polynomial generating method.
+
+* Make bezier_params_from_point work for bezier curves of any degree.
+
+* More descriptive names for k and l
+
+* Apply suggestions from @friedkeenan's code review
+
+Formatting changes; code cleanliness.
+Made `point_lies_on_bezier_curve` pass `round_to` to `bezier_params_from_point`
+
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>
+
+* Formatting changes as suggested by @friedkeenan.
+
+* Rename bezier_params_from_point to proportions_along_bezier_curve_for_point
+
+Use proportions_along_bezier_curve_for_point alone and not point_lies_on_bezier in proportion_from_point
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Use proper typings for proportions_along_bezier_curve_for_point
+
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>
+
+* Add a comment paragraph explaining how proportion_from_point works.
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Fix a bug where certain points are wrongly identified as being on the curve.
+
+Thanks @Skaft !
+
+* Moved around and added explanation comments.
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: friedkeenan <friedkeenan@protonmail.com>",['446c42d8d3b68c9a58d9c3fd1b36ff02b81523ef'],False,"['mobject.py', 'vectorized_mobject.py', 'bezier.py']"
+476ac4efb955f6149f966fb41530e512daba56dc,"Fix :meth:`~.input_to_graph_point` when passing a `line_graph` (#1994)
+
+* Fix the bounds of the binary search
+
+* Fix the binary_search when the point in on a bound (return the proportion instead of the function value)
+
+* Add an error when x is not in the graph range
+
+* Allow to pass a VMobject to input_to_graph_point (type of a line_graph?)
+
+* Modify the test to reflect fixed bug
+
+* Update according to pre-commit
+
+* Add the exception in the docstring
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Convert a string into f-string
+
+Co-authored-by: Léo Géré <leo.gere@inrae.fr>
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Léo Géré <gere@etud.insa-toulouse.fr>",['58092a71a9b6d162024fa235dc696e8b9bad3a9d'],False,"['coordinate_systems.py', 'simple_functions.py', 'test_coordinate_system.py']"
+209474a2f34657ff1bda92a8542883b38eeaa6e3,Fix bug where ~.NumberLine.add_labels() cannot accept non-mobject labels. (#2043),['5ef6b534100ec8fdfc8dab0ea2afafda492d396b'],False,['number_line.py']
+522b83cdc7985b9b72f6a6d83ea3e71964370998,"Improved the implementation of :meth:`.CoordinateSystem.get_area` to work without Riemann rectangles, added new :meth:`.CoordinateSystem.get_area_with_riemann_rectangles` (#1990)
+
+* Rename old get_area
+
+* Add the new get_area method
+
+* Test file
+
+* Revert ""Test file""
+
+This reverts commit 7588d7aba69c92f3c68e0523f0303ea229cbf992.
+
+* Fix the gradient coloring
+
+* Add the bounded parameter
+
+* Add an example and reformat the docstring
+
+* Update get_area_with_riemann_rectangles example in the docstring
+
+* Modify the example in the Example Gallery to use the new get_area
+
+* Modify the test for get_area_with_riemann_rectangles and add a test for get_area
+
+* Add the npz for the tests
+
+* Rename bounded parameter in bounded_graph
+
+* Make the function handle different range for graph and bounded_graph
+
+* Use point instead of get_points()
+
+* Make more specific tests
+
+* Change Sequence type to Tuple
+
+Co-authored-by: Hugues Devimeux <36239975+huguesdevimeux@users.noreply.github.com>
+
+* Update an example to enhance the difference between both `get_area` methods
+
+* Fix a bug not taking into acount x_range
+
+* Change the opacity of the area in the example to better see the area
+
+* Fix a bug for non-overlapping ranges
+
+* Add the exception to the docstring
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Remove `get_area_with_riemann_rectangles` and fix f-strings
+
+* Remove references to `get_riemann_rectangles`
+
+Co-authored-by: Léo Géré <leo.gere@inrae.fr>
+Co-authored-by: Léo Géré <gere@etud.insa-toulouse.fr>
+Co-authored-by: Hugues Devimeux <36239975+huguesdevimeux@users.noreply.github.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['d9958b36a199fa13389430dab971988af4488d63'],False,"['examples.rst', 'coordinate_systems.py', 'get_area.npz', 'get_area_with_riemann_rectangles.npz', 'test_axes.py']"
+e3f7026d0e5c0d1b08cbcbb3cb2a02f0b18be03d,"Improve TeX error reporting (#2161)
+
+This commit:
+  * Fixes a bug where if a TeX compilation error occurs on a line not in
+  the TeX source -- which can happen because of LaTeX post-processing --
+  then an `IndexOutOfBoundsError` would be raised as the logging was
+  formatted.
+  * Adds a test for the above situation
+  * Fixes a situation where too many unrelated lines would be shown
+  * Refactors the involved code",['ab9a21bb718f457128560130bf70700c3eda9d1a'],False,"['tex_file_writing.py', 'test_texmobject.py']"
+3ce4c133dd494b6a34fc9a2f8e80879460e4f3da,"Introduced API for scene sections via :meth:`.Scene.next_section` (#2152)
+
+* feat: added section class
+
+* fix: fixed imports in scene.py
+
+* feat: added section class
+
+* fix: fixed imports in scene.py
+
+* feat: scene file writer update; needs testing
+
+* broken test
+
+* fixed wrong partial movie files
+
+* feat: added animation concatenation for sections
+
+* fix: sections can contains None as partial movie file
+
+* fix: correct section output file names
+
+* fix: removed media folder
+
+* feat: section output able to extract type
+
+* feat: added guarantee_existence tests
+
+* fix: touch file on windows
+
+* fix: touch file on windows
+
+* feat: automatically create control data with --set_test flag
+
+* feat: added tests for sections output folder
+
+* feat: added flag to enable sections
+
+* feat: testing section metadata file
+
+* feat: finished metadata tests; changed enums to be extendable
+
+* fix: removed testing files
+
+* fix: fixed section types
+
+* fix: fixed outdated control data
+
+* fix: fixed simple_scenes.py
+
+* fix: fixed section type documentation example
+
+* feat: added section video metadata to API
+
+* fix: isort should stop destroying the import order for commands.py
+
+* fix: fixed types of section metadata output
+
+* fix: better comments
+
+* ?
+
+* feat: added elaborate test; switched name and type in next_section call
+
+* feat: changed testing terminology: ""config"" got renamed to ""movie metadata""
+
+* fix: removed unicode lambda :<
+
+* fix: fixed control data
+
+* fix: removed test setter
+
+* feat: added tutorial in the documentation
+
+* fix: updated test control data
+
+* fix: fixed double '.' in video tests
+
+* fix: fixed some documentation
+
+* fix: fixed missign JSON file in docs
+
+* fix: implemented proposed changes
+
+* fix: better --save_sections help
+
+* fix: better docstrings
+
+* fix: fixed last docstring...hopefully :>
+
+* feat: custom section output supported
+
+* fix: removed resolved todos
+
+* fix: added debug for movie concatenation back
+
+* fix: removed implemented TODO
+
+* fix: removed doubled log
+
+* fix: changed debug to info log
+
+* fix: fixed log test data",['e3f7026d0e5c0d1b08cbcbb3cb2a02f0b18be03d'],False,"['a_deeper_look.rst', '__init__.py', 'default.cfg', 'utils.py', 'render_options.py', 'scene.py', 'scene_file_writer.py', 'section.py', 'commands.py', 'file_ops.py', 'assert_utils.py', 'intersection_3_mobjects.npz', 'implicit_graph.npz', 'number_plane.npz', 'ImplicitFunction.npz', 'AngledArrowTip.npz', 'set_value_with_updaters.npz', 'Circle.npz', 'custom_coordinates.npz', 'get_axis_labels.npz', 'get_derivative_graph.npz', 'get_graph.npz', 'get_graph_label.npz', 'get_line_graph.npz', 'get_lines_to_point.npz', 'get_riemann_rectangles.npz', 'get_x_axis_label.npz', 'get_y_axis_label.npz', 'get_z_axis_label.npz', 'plot_functions.npz', 't_label.npz', 'Dodecahedron.npz', 'Icosahedron.npz', 'Octahedron.npz', 'Tetrahedron.npz', 'DecimalTable.npz', 'IntegerTable.npz', 'MathTable.npz', 'MobjectTable.npz', 'Table.npz', 'CameraMove.npz', 'CameraMoveAxes.npz', 'Dot3D.npz', 'Sphere.npz', 'vector_to_coords.npz', 'BasicSceneLoggingTest.txt', 'SceneWithDisabledSections.json', 'SceneWithEnabledSections.json', 'SceneWithMultipleCallsWithNFlag.json', 'SceneWithMultiplePlayCallsWithNFlag.json', 'SceneWithMultipleWaitCallsWithNFlag.json', 'SceneWithSections.json', 'SquareToCircleWithDefaultValues.json', 'SquareToCircleWithlFlag.json', 'video_utils.py', 'test_commands.py', 'test_config.py', 'test_file_ops.py', '_test_class_makers.py', 'frames_comparison.py', 'test_logging.py', 'test_plugins.py', 'test_caching_related_opengl.py', 'test_cli_flags_opengl.py', 'simple_scenes.py', 'test_caching_related.py', 'test_cli_flags.py', 'test_sections.py', 'commands.py', 'video_tester.py']"
+7d76cd459d927cf07240a4bffb00949ed6fdba4e,"Fixed Documentation for Sections (#2212)
+
+* feat: added section class
+
+* fix: fixed imports in scene.py
+
+* feat: added section class
+
+* fix: fixed imports in scene.py
+
+* feat: scene file writer update; needs testing
+
+* broken test
+
+* fixed wrong partial movie files
+
+* feat: added animation concatenation for sections
+
+* fix: sections can contains None as partial movie file
+
+* fix: correct section output file names
+
+* fix: removed media folder
+
+* feat: section output able to extract type
+
+* feat: added guarantee_existence tests
+
+* fix: touch file on windows
+
+* fix: touch file on windows
+
+* feat: automatically create control data with --set_test flag
+
+* feat: added tests for sections output folder
+
+* feat: added flag to enable sections
+
+* feat: testing section metadata file
+
+* feat: finished metadata tests; changed enums to be extendable
+
+* fix: removed testing files
+
+* fix: fixed section types
+
+* fix: fixed outdated control data
+
+* fix: fixed simple_scenes.py
+
+* fix: fixed section type documentation example
+
+* feat: added section video metadata to API
+
+* fix: isort should stop destroying the import order for commands.py
+
+* fix: fixed types of section metadata output
+
+* fix: better comments
+
+* ?
+
+* feat: added elaborate test; switched name and type in next_section call
+
+* feat: changed testing terminology: ""config"" got renamed to ""movie metadata""
+
+* fix: removed unicode lambda :<
+
+* fix: fixed control data
+
+* fix: removed test setter
+
+* feat: added tutorial in the documentation
+
+* fix: updated test control data
+
+* fix: fixed double '.' in video tests
+
+* fix: fixed some documentation
+
+* fix: fixed missign JSON file in docs
+
+* fix: implemented proposed changes
+
+* fix: better --save_sections help
+
+* fix: better docstrings
+
+* fix: fixed last docstring...hopefully :>
+
+* feat: custom section output supported
+
+* fix: removed resolved todos
+
+* fix: added debug for movie concatenation back
+
+* fix: removed implemented TODO
+
+* fix: removed doubled log
+
+* fix: changed debug to info log
+
+* fix: fixed log test data
+
+* fix: fixed documentation --save_sections",['3ce4c133dd494b6a34fc9a2f8e80879460e4f3da'],False,['a_deeper_look.rst']
+5397d38e101afade116c82c6f980b40e37e3c58a,"Implement logarithmic scaling for :class:`~.NumberLine`/:class:`~.Axes`  (#1812)
+
+* scaling, add differnt scalings, adjust to use x_range, adjust line movement to make it applicable
+
+* kind of ugly solution to make coords_to_point do less pointless calculations
+
+* refactoring and add_labels
+
+* numberplane fix
+
+* make functions scaling-compatible
+
+* decimal_number scaling for the units
+
+* docs for axes
+
+* minor docs changes
+
+* Pre-PR cleaning
+
+* missing bug
+
+* typo
+
+Co-authored-by: Darylgolden <darylgolden@gmail.com>
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* remove redundant add_labels
+
+* move import out of TYPE_CHECKING
+
+* add scale to init.py
+
+* missing underscores
+
+* fix broken test
+
+* fix numberplane line generation for log
+
+* add scale.py to the docs and replace dict outout for custom_labels with a list
+
+* add explanation and default for exclude_origin_tick
+
+* custom labels using .add_coordinates()
+
+* add test, valueerror warning and docs
+
+* add .npz file and adjust docs
+
+* add numberplane log test
+
+* quick docs for ParametricFunction
+
+* add extra condition because None becomes LinearBase too
+
+* flip x and y
+
+* add exclude_origin_tick business for z_axis
+
+* adjust threed test
+
+* improve docs for number line.
+
+* add more docs
+
+* more docs for number line
+
+* pre-merge docs improvements
+
+* fix return types
+
+* attempt to fix weird formatting
+
+* fix questionable doc choice
+
+* l1 != li
+
+* correct the index for 6
+
+* correct the index for 6
+
+Co-authored-by: Darylgolden <darylgolden@gmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['739d3d17e24315d538c12e5e33d9fa48162f04aa'],False,"['utilities_misc.rst', '__init__.py', 'coordinate_systems.py', 'functions.py', 'number_line.py', 'scale.py', 'number_plane.npz', 'number_plane_log.npz', 'axes.npz', 'log_scaling_graph.npz', 'Axes.npz', 'test_axes.py', 'test_coordinate_systems.py', 'test_threed.py']"
+82729bdd1100dcec3808b237934f6c442bfedfe2,"New Crowdin updates (#2264)
+
+* New translations building_blocks.pot (Swedish)
+
+* New translations quickstart.pot (Swedish)
+
+* New translations contributing.pot (Swedish)
+
+* New translations index.pot (French)
+
+* New translations examples.pot (Swedish)
+
+* New translations installation.pot (French)
+
+* New translations index.pot (Swedish)
+
+* New translations index.pot (Portuguese, Brazilian)
+
+* New translations index.pot (Hindi)
+
+* New translations installation.pot (Swedish)
+
+* New translations plugins.pot (Swedish)
+
+* New translations reference.pot (Swedish)
+
+* New translations reporting_bugs.pot (Swedish)
+
+* New translations tutorials.pot (Swedish)
+
+Co-authored-by: Darylgolden <darylgolden@gmail.com>",['630abb1d132b57f4f98171b77df93e479179b05f'],False,"['index.po', 'installation.po', 'index.po', 'index.po', 'contributing.po', 'examples.po', 'index.po', 'installation.po', 'plugins.po', 'reference.po', 'reporting_bugs.po', 'tutorials.po', 'building_blocks.po', 'quickstart.po']"
+c138eb72a31bf21f2f11faa8320c37a3de416971,"New Crowdin updates (#2268)
+
+* New translations building_blocks.pot (Swedish)
+
+* New translations quickstart.pot (Swedish)
+
+* New translations contributing.pot (Swedish)
+
+* New translations index.pot (French)
+
+* New translations examples.pot (Swedish)
+
+* New translations installation.pot (French)
+
+* New translations index.pot (Swedish)
+
+* New translations index.pot (Portuguese, Brazilian)
+
+* New translations index.pot (Hindi)
+
+* New translations installation.pot (Swedish)
+
+* New translations plugins.pot (Swedish)
+
+* New translations reference.pot (Swedish)
+
+* New translations reporting_bugs.pot (Swedish)
+
+* New translations tutorials.pot (Swedish)
+
+Co-authored-by: Darylgolden <darylgolden@gmail.com>",['e389ec8b5870d997929a5f9b7c5cae42a4693b41'],False,"['index.po', 'installation.po', 'index.po', 'index.po', 'contributing.po', 'examples.po', 'index.po', 'installation.po', 'plugins.po', 'reference.po', 'reporting_bugs.po', 'tutorials.po', 'building_blocks.po', 'quickstart.po']"
+177c31027f1175eb95fb43513219f1a69699fc2d,"Fixed :class:`~.ThreeDAxes` axis shift bug. (#2276)
+
+* Fixed axes shift problem and added test
+
+* Update manim/mobject/coordinate_systems.py
+
+Agreed.
+
+Co-authored-by: icedcoffeeee <83535735+icedcoffeeee@users.noreply.github.com>
+
+* Update manim/mobject/coordinate_systems.py
+
+Agreed
+
+Co-authored-by: icedcoffeeee <83535735+icedcoffeeee@users.noreply.github.com>
+
+* Adjust for LogBase axes and added tests for LogBase
+
+* fix LogBase issues with ThreeDAxes
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* nitpicky unneeded parameter
+
+Co-authored-by: icedcoffeeee <83535735+icedcoffeeee@users.noreply.github.com>
+Co-authored-by: Laith Bahodi <laithbahodi@gmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Laith Bahodi <70682032+hydrobeam@users.noreply.github.com>",['dfac7a7b299c9d1862255c280eae9104ed9bf243'],False,"['coordinate_systems.py', 'test_axes_shift.py']"
+ef6f219d2f4997573f6c612f4cf4f6251e1b9301,"Prepared bugfix release ``v0.13.1`` (#2364)
+
+* bump version number, generate changelog
+
+* include bugfix release PR in changelog
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>",['7d9b6262f46bae7747f3e343b4249948733a07f5'],False,"['CITATION.cff', 'changelog.rst', '0.13.1-changelog.rst', 'pyproject.toml']"
+e61d22fdfe0b62d011eaeabebd3e94fff93c1109,"Improved DashedVMobject (#2372)
+
+* Added even_lengths option to DashedVMobject and updated example
+
+* Added dash offset parameter to DashedVMobject
+
+* Stupid bugfix for np.append()
+
+* tried to update DashedVMobject control data
+
+* modified geomtery test to use new feature and updated control data
+
+* Update manim/mobject/types/vectorized_mobject.py
+
+doc string improvement
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Update manim/mobject/types/vectorized_mobject.py
+
+Small restructure around dash-overflow handling
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* i don't know what im gitting but something with vmobjects
+
+* renamed even_lengths to equal_lengths
+
+* fixed equal_lengths renaming in Example
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>",['edccb3f6277b642131eac30b922fe51bb0a3af37'],False,"['vectorized_mobject.py', 'DashedVMobject.npz', 'test_geometry.py']"
+540dc70d2fd7a2f759a6da158303ef81a1ae53f8,"Update `Text` to use new ManimPango color setting (#2341)
+
+* Find indexes in stripped text, not original text
+
+* Add regression test
+
+* Only run the test in linux environement
+
+* Rewrite text2settings in Text to set text color via pango
+
+* Make gradient in Text use pango coloring
+
+* Bump manimpango to newest version
+
+* Update test to use new frames_comparison
+
+* Don't remove svg file on exception
+
+* Bump manimpango
+
+* Fix pre-commit errors
+
+* Fix index bug
+
+* Deprecate no longer used functions set_color_by_t2x
+
+* Remove old commented out code
+
+* Update poetry.lock",['c4217731e08470d5a56cf02cf76cae01c03fb78f'],False,"['text_mobject.py', 'poetry.lock', 'pyproject.toml', 'Text2Color.npz', 'test_text.py']"
+318fb522a6b946a2cd6aef59de7c5e47db95fba9,"Trim empty curves from paths when calling align_points. (#2409)
+
+* Trim empty curves from paths when calling align_points.
+
+Resolves #1959
+
+* Remove buggy optimization. Also update docs
+
+* Restore an if statement, to be reviewed later
+
+* Restructure FocusOn animation to work better with the align_points changes
+
+* Copy changes into OpenGLVMobject
+
+* Add trim_dummy test and some doc improvements
+
+* Another doc change
+
+* break a line in docstring
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['540dc70d2fd7a2f759a6da158303ef81a1ae53f8'],False,"['indication.py', 'opengl_vectorized_mobject.py', 'vectorized_mobject.py', 'test_vectorized_mobject.py']"
+5789be81609c8bf6d98d1d87d4061477d0cd37b9,"Fix `add_axes` in :class:`~.VectorScene`. (#2444)
+
+* fix bug
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>",['3b922a9db3d4fd6767637c23e4d7a29210d782bc'],False,['vector_space_scene.py']
+149479f9132daf2266c27caa7a3e11ce06be501d,"Refactored :class:`~.BarChart` and made it inherit from :class:`~.Axes`. (#2387)
+
+* rebase
+
+* fixed None bar_names
+
+* fixed scale issues
+
+* fixed to accept negative bar values
+
+* fixed some bugs
+
+* Added docs for parameters (DRAFT)
+
+* clean up parameters
+
+* more clean up
+
+* clean up __init__
+
+* replace add_x_labels with built-in functionality
+
+* adjust default font_size for labels
+
+* Update docs descriptions
+
+* Add bar_width and adjust get_bar_labels
+
+* Add bar_width and adjust get_bar_labels
+
+* Add docs to class and methods
+
+* remove unecessary imports
+
+* remove getters
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Attempt to fix duplicated parameters section
+
+* adjust BarChart example to include title
+
+* switch order around
+
+* change_bar_values
+
+* back to get_bar_values
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* add docs for _update_default_config and fix method
+
+* remove print(dicts)
+
+* allow negative_numbers to work with bar chart
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* allow negative numbers to work with change_bar_values
+
+* add test_probability.py
+
+* add control data
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* change example
+
+* update examples again
+
+* rewrite test
+
+* rewrite other test
+
+* remove comma after list in example
+
+* improve wording in docs
+
+* add parameter/docs for label_constructor
+
+* change create_label_tex and update methods
+
+* update docs
+
+* use decimal number
+
+* switch default to Tex
+
+* update instances of create_label_tex in coordinate_systems.py
+
+* hardcode for add_labels
+
+* add TODO
+
+* use label_constructor
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix indentation in docs
+
+* Fix minor doc typo
+
+Co-authored-by: Led Me Explain <ledmeexplain@gmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>",['d85549f58d0ff2f5d946c73c3263eb5342072e5d'],False,"['coordinate_systems.py', 'number_line.py', 'probability.py', 'advanced_customization.npz', 'change_bar_values_negative.npz', 'change_bar_values_some_vals.npz', 'default_chart.npz', 'get_bar_labels.npz', 'label_constructor.npz', 'negative_values.npz', 'test_probability.py']"
+099e4eed0c8938bcbe03d966e29a0f3ee6bc2e2c,"Fixed two issues of :class:`~.SVGMobject` (#2490)
+
+* fix issue of nested svg
+
+* fix issue of the order of transforms
+
+* fix bug of node which is not an element
+
+* fix x y property in SVGMobject._handle_transforms
+
+* adapted control data
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['29028fa61dbfc6a51b6742b1970e092008527711'],False,"['svg_mobject.py', 'MultipleTransform.npz']"
+269e5c22cb02de108579eccee2b82583eb71e3dc,"Fix minor typing mistakes in docs (#2485)
+
+* Fix minor typos in docs
+
+* Update .github/ISSUE_TEMPLATE/bug_report.md
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Update .github/ISSUE_TEMPLATE/installation_issue.md
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Update CODE_OF_CONDUCT.md
+
+Co-authored-by: Darylgolden <darylgolden@gmail.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['df8cefe984dc6d332c84f5bfa0b36b308b87c16d'],False,"['bug_report.md', 'installation_issue.md', 'CODE_OF_CONDUCT.md', 'mobject.py']"
+ac1ee9a683ce8b92233407351c681f7d71a4f2db,"Fix axes plotting bug with logarithmic x-axis (#2548)
+
+* Fix axes plotting bug with logarithmic x-axis
+
+The scaling function was not applied to the last x-value to be evaluated,
+resulting in a wrong point of the function plot and a weird line from
+the second-last to the last point when using a scaled x-axis.
+
+* Add graphical unit test
+
+Co-authored-by: icedcoffeeee <83535735+icedcoffeeee@users.noreply.github.com>",['cba802f3ca283ca18bee78c186f3ede8660e907c'],False,"['functions.py', 'plot_log_x_axis.npz', 'test_coordinate_systems.py']"
+e47c5da50313e87ae296cca4bea9dddd5a0bc9a3,Fixed logger bug in (#2557),['7039656a68013c2028af6cd544e61928e49f60d6'],False,['camera.py']
+a038288ac647f993692e9a2ae4347d3122c9abb7,"Fixed a bug with animation of removal of edges from a :class:`.Graph` (#2576)
+
+* animationgroup for edge removal should not be full graph
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>",['9e19f8c2d10ffb933e27b1bfa34a190bb17e8959'],False,['graph.py']
+f23db3ded1c3e74c695b160f420e369cb27ac11b,Fixed bug with displaying images in Jupyter notebooks (#2593),['ed30cc906cd6601ef9528e21f34b731b6539b141'],False,['ipython_magic.py']
+bcfa9ac5adb51ac1297ae26a805336fc7be24322,"Fix bug introduced in Tex rendering via #2574 (#2587)
+
+* Bugfix
+
+* Changes to log data
+
+* Add test
+
+* Seperate test",['f23db3ded1c3e74c695b160f420e369cb27ac11b'],False,"['tex_file_writing.py', 'bad_tex_scene_BadTex.txt', 'test_texmobject.py']"
+db504a548b5ad7e13752a66a611b66b4c2088045,"Fixed bug with invalid color type ``None`` (#2584)
+
+* Add test
+
+* Seperate test
+
+* Better solution
+
+* Rebasing is hard
+
+* revert changes to get_style
+
+* handle color lists containing None properly
+
+* added test for match_style with gradient
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>",['bcfa9ac5adb51ac1297ae26a805336fc7be24322'],False,"['vectorized_mobject.py', 'match_style.npz', 'ReplacementTransform.npz', 'test_mobjects.py', 'test_transform.py']"
+8e6a4c48aca882e526558fd9f9e5419a8f36b876,"Prepared bugfix release v0.15.1 (#2596)
+
+* bumped version number, generated changelog (first pass)
+
+* included release PR
+
+* generate changlog, second pass
+
+* regenerated changelog, final pass
+
+* update translation strings",['294efcd65178e62285e19f0c4998e680dc945f2e'],False,"['CITATION.cff', '0.10.0-changelog.pot', '0.11.0-changelog.pot', '0.12.0-changelog.pot', '0.13.0-changelog.pot', '0.13.1-changelog.pot', '0.14.0-changelog.pot', '0.15.0-changelog.pot', '0.15.1-changelog.pot', '0.5.0-changelog.pot', '0.6.0-changelog.pot', '0.7.0-changelog.pot', '0.8.0-changelog.pot', '0.9.0-changelog.pot', 'windows.pot', 'manim.mobject.graphing.coordinate_systems.Axes.pot', 'manim.mobject.graphing.coordinate_systems.CoordinateSystem.pot', 'manim.mobject.graphing.coordinate_systems.NumberPlane.pot', 'manim.mobject.graphing.coordinate_systems.PolarPlane.pot', 'manim.mobject.graphing.coordinate_systems.ThreeDAxes.pot', 'changelog.rst', '0.15.1-changelog.rst', 'pyproject.toml']"
+ef00ae5e668907eac2ae18c19c35e78671ccfcc2,"Fix bug in `Circle.point_at_angle` when angle not in [0, 2 * pi]. (#2613)
+
+When the angle passed to `Circle.point_at_angle` is not in the
+interval [0, 2 * pi], an error is thrown.
+
+This commit maps all angles into the interval [0, 2 * pi].",['0bc593a8a07e58d1707ca736849ba7d57d9b2534'],False,"['arc.py', 'test_vectorized_mobject.py']"
+ef8a9198f43679abb2140b20fe6b814e08fe834d,"Run tests on Linux-aarch64 (#2561)
+
+* try self-hosted runners
+
+* skip test_force_window_opengl_render_with_format on linux arm
+
+* remove debug stuff
+
+* pre-commit
+
+Co-authored-by: Naveen M K <naveen521kk@gmail.com>",['df1a60421ea1119cbbbd143ef288d294851baaac'],False,"['ci.yml', 'test_opengl_renderer.py']"
+326bf21b5c9bd9f5a08962d92229846eed17ffe4,"Fixed a File logging bug and some maintenance (#2546)
+
+* Fixed File logging bug
+
+Previously, the file logger was set in manim/_config/utils.
+That caused problems as python tried to enable file logging when other
+variables like media_dir, scene_name and others which were required for
+the naming of log_dir were not yet set.
+
+Now, we enable log_to_file in scene_file_writer where all the required
+directories are declared before we enable file logging.
+
+Also removed a test that was based on set_file_logger's previous
+behaviour where it added a suffix only when the class name was
+specified when calling manim. Since, we now enable file logging
+in scene_file_writer, we always have access to the class name
+regardless.
+
+* Added Typings to file_ops
+
+* Fixed typings and some warnings in _config.utils
+
+Fixed some typings to now explicitly importing the types we require.
+Removed one of the double declarations of dry_run.
+Removed an unused import and a block of commented code.
+
+* Remove rendundant check
+
+* Add suggested changes
+
+Co-authored-by: Hugues Devimeux <36239975+huguesdevimeux@users.noreply.github.com>",['5d72d9cfa2e3dd21c844b1da807576f5a7194fda'],False,"['logger_utils.py', 'utils.py', 'scene_file_writer.py', 'file_ops.py', 'test_config.py', 'test_logging.py']"
+da3e99597d627b3e2e339dad977f8ef21d9b640d,"Prepared bugfix release v0.15.2 (#2694)
+
+* bumped version number, generated changelog
+
+* regenerate changelog (second pass)
+
+* regenerate changelog
+
+* Add changelog to toctree
+
+* regenerate changelog
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* add this pr also to changelog
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* regenerate changelog
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* regenerate changelog
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Apply suggestions from code review
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['7a13f0e969e6a70af9084cdbf41cea49c7f1813c'],False,"['CITATION.cff', 'changelog.rst', '0.15.2-changelog.rst', 'pyproject.toml']"
+b583720ac26832db2fcdb8b4aeb0508996dcedae,"Fixed bug in :meth:`.VMobject.proportion_from_point` that caused proportions greater than 1 to be returned (#2770)
+
+* fix bug #2627
+
+* Update manim/utils/bezier.py
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* add test case for bug #2627
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Tristan Schulz <mrdiverlp@gmail.com>",['8bebfb907bcbf6d0f564fbaf6a99f186fc58d473'],False,"['bezier.py', 'test_vectorized_mobject.py']"
+9359331effffcdf6e6c63718002c8fd576cc8c77,"Add vectorized plotting functionality to improve performance (#2739)
+
+* enhancement(ParametricFunction, CoordinateSystem, Axes, NumberLine): vectorized coords_to_points,plot,plot_parametric_function; added Numberline:number_to_point_array
+
+* test(plot_log_x_axis_vectorized): added test for vectorized plotting
+
+* extend(angle_of_vector): added test for angle_of_vector with ndarray as input
+
+* fix(frames_comparison): fix naming of test data to be able to write and read the file name because ':' is forbidden
+
+* test(plot): add more vectorized tests, added use_vectorized fixture to make life simpler
+
+* fix(coordinate_system,number_line,scale): vectorizing functions and fixing bugs
+
+* enhancement(NumberLine): vectorized number_to_point and added test
+
+* enhancement(NumberLine): added tests for point_to_number, added example to doc
+
+* enhancement(CoordinateSystem): added test for coords_to_point_vectorized and vectorized coords_to_point
+
+* enhancement(Axes): vectorized point_to_coords and added tests
+
+* Minor formatting fixes and doctests
+
+* fixed flake hint with generator expression
+
+* Create __init__.py
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Update documentation for antiderivative
+
+* Update manim/mobject/graphing/coordinate_systems.py
+
+Co-authored-by: Raghav Goel <raghavgd2h@gmail.com>
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Update manim/mobject/graphing/coordinate_systems.py
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Update manim/mobject/graphing/coordinate_systems.py
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Update manim/mobject/graphing/functions.py
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Update manim/mobject/graphing/coordinate_systems.py
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Update manim/mobject/graphing/coordinate_systems.py
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* fixed wrong indentation
+
+* stop doctest from leaking change in global config
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* change code block type
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Raghav Goel <raghavgd2h@gmail.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['3ae46a4c133f87461e63508406786fba399bd67d'],False,"['utils.py', 'coordinate_systems.py', 'functions.py', 'number_line.py', 'scale.py', 'vectorized_mobject.py', 'space_ops.py', 'frames_comparison.py', 'test_coordinate_system.py', 'conftest.py', 'plot_log_x_axis_vectorized.npz', 'get_riemann_rectangles_use_vectorized[False].npz', 'get_riemann_rectangles_use_vectorized[True].npz', 'plot_derivative_graph_use_vectorized[False].npz', 'plot_derivative_graph_use_vectorized[True].npz', 'plot_functions_use_vectorized[False].npz', 'plot_functions_use_vectorized[True].npz', 'plot_use_vectorized[False].npz', 'plot_use_vectorized[True].npz', 'test_axes.py', 'test_coordinate_systems.py', 'test_number_line.py', 'test_space_ops.py']"
+b5681fd905ed053ce1886e9a71f868313ea4eef8,"fix: fixed bad text slicing for Paragraph's lines (#2721)
+
+* fix: fixed bad text slicing for Paragraph's lines
+
+Inside Paragraph's _gen_chars method, a bad string slicing caused the text's characters to be obtained in an incorrect order. This would cause chars (and thus self.chars and self.lines in __init__) to store incorrect values.
+If Paragraph's alignment parameter was None, nothing wrong seemed to happen, but if alignment was 'left', 'center or 'right', the text's lines would not display correctly.
+This happened because the slicing was of the form [begin : begin + string_length + 1]. This bug was fixed by changing it to [begin : begin + char_count], where char_count is the number of characters in the corresponding string which are not "" "", ""\n"" or ""\t"".
+I've also cleaned __init__'s code:
+- There was a redundant fragment of code which did exactly the same thing as _gen_chars, storing data in chars_lines_text_list. I deleted this code and used self.chars instead.
+- lines_str joins the text strings with '\n', but then lines_str_list split lines_str again, with '\n' as delimiter. I rewrote lines_str_list as just list(text).
+- self.lines is a list which essentially stores list(self.chars) as its first element. The original code used a for loop to append self.chars' lines, one by one, to self.lines[0]. I replaced this for loop with list(self.chars).
+- self.lines' second element was rewritten as a repetition of [self.alignment], self.chars.__len()__ times.
+- I replaced the for loop used to append the line centers to self.lines_initial_positions, and instead used [line.get_center() for line in self.lines[0]].
+
+* revert: reverted lines_str and lines_str_list changes
+
+* fix: added Paragraph.consider_spaces_as_chars to fix issue
+
+* fix: changed `config` kwargs name to `kwargs`
+
+Using `config` as a name for keyword arguments in `Paragraph.__init__` is inconsistent with the use of `kwargs` everywhere else and also shadows the `config` global variable, which is why this variable was renamed as `kwargs`.
+
+* refactor: changed `var.__len__()` to `len(var)`
+
+Changed 8 appearances (1 in `remove_invisible_chars`, 6 in `Paragraph` and 1 in `Text`) of magic method `__len__` (as in `var.__len__()`) to `len(var)`.
+
+* refactor: changed docstrings and added type hints
+
+* fix: changed space char hardcoding to isspace() string method
+
+Co-authored-by: Tristan Schulz <mrdiverlp@gmail.com>",['a20f8aeb6ccd30d6b9d5c34285c3a718b0f5a59b'],False,['text_mobject.py']
+6c58f4a7778906de1492bdfd40db2712fe5213d2,"Added :class:`.ChangeSpeed`, an animation wrapper that allows to smoothly change the speed at which an animation is played (#2749)
+
+* Added speedmodifier.py
+
+* fix bugs, stable state
+
+* rate_func, comments
+
+* Add docs
+
+* add `ChangedWait`
+
+* run_time override for AnimationGroup
+
+* fix AnimationGroup
+
+* change example
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix docstrings
+
+* small improvements
+
+[pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+fix AnimationGroup
+
+fix AnimationGroup...
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* add_updater for changed speed
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* rename vars
+
+* Remove `ChangedWait`,
+Set default `rate_func` for `Wait` to `linear`
+
+* fix `Succession`
+
+* fix updaters
+
+* fix docs
+
+* rename vars
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Apply suggestions from code review
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* convert lambdas into funcs
+
+* Add tests.
+
+* reduced test run time and regenerated control data
+
+* Update manim/animation/speedmodifier.py
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* include new module in docbuild
+
+* added module docstring
+
+* fixed non-rendering examples in documentation
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+Co-authored-by: Tristan Schulz <mrdiverlp@gmail.com>
+Co-authored-by: Benjamin Hackl <benjamin.hackl@aau.at>",['4d9cca208dd22634b75ca09ac3f74246031651d2'],False,"['reference.rst', 'animations.rst', '__init__.py', 'animation.py', 'composition.py', 'speedmodifier.py', 'SpeedModifier.npz', 'test_speed.py']"
+4cb43a2dc8d871ec8c8af0645eba5da00d3b2d4f,"Fix :meth:`BarChart.change_bar_values`  not updating when height is 0. (#2638)
+
+* Refactor bar creation into a separate function
+
+The function is _create_bar.
+
+* Add insert methods for OpenGLMobject/Mobject
+
+* Add self._update_colors, improve docs and fix bug
+
+Create temporary bar, replace the previous location
+in the self.bars vgroup with the new bar. Then re-initalize
+the colours depending on a flag.
+
+Also refactor out colour-setting to a method
+
+* Apply black and isort
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Fix flake8 error, double '#' before comment.
+
+* Refactor bar creation into a separate function
+
+The function is _create_bar.
+
+* Add insert methods for OpenGLMobject/Mobject
+
+* Add self._update_colors, improve docs and fix bug
+
+Create temporary bar, replace the previous location
+in the self.bars vgroup with the new bar. Then re-initalize
+the colours depending on a flag.
+
+Also refactor out colour-setting to a method
+
+* Apply black and isort
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Fix flake8 error, double '#' before comment.
+
+* Implement None-initialization suggestion
+
+Removed setting self.bars in `BarChart._add_bars`
+
+* Change `temp` to `tmp` and use Type
+
+* Use `type` instead of `Type`.
+
+- Also, fix setting config.frame_width in __init__, since this causes
+BarChart's `y_length` to not be re-evaluated if the dimensions of the
+scene are  changed.
+
+* Force `bar_colors` to be a list via deprecation
+
+- Also update params where `len` is taken to be a Sequence, not iterable
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Fix docs / some typing, remove try/except
+
+- MutableSequence instead of Sequence for self.values, since
+BarChart.change_bar_values adjusts the value of the sequence, requiring
+__get_item__.
+- Use try/except based on reviewer's reccomendation.
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Tristan Schulz <mrdiverlp@gmail.com>",['a78c8e312b7f2c22f816388e053defc89df79af5'],False,"['probability.py', 'mobject.py', 'opengl_mobject.py']"
+22ae67e47f9c0b4cb31b5053066bd37843e6d6b8,"Fixed bug with propagation of ``tex_template`` value when using ``tempconfig`` (#2888)
+
+* added tex_template to keys of config dict
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* added missing argument to tempconfig call
+
+* decouple config.tex_template and config.tex_template_file, simple tex_template default
+
+* changed template => changed file hashes
+
+* added dedicated tempconfig reset test
+
+* black
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Naveen M K <naveen521kk@gmail.com>",['ce9acddd41f39929d499b45e52621a2849b8333e'],False,"['utils.py', 'commands.py', 'tex.py', 'test_texmobject.py', 'test_texmobject_opengl.py']"
+18fe1e64a9b67048c52ae3b018bba044113475df,"Debugging Windows CI Pipeline (#2983)
+
+* run tests without xdist
+
+* specifically run tests/opengl tests
+
+* fix version of moderngl-window to <=2.4.1
+
+* Revert ""run tests without xdist""
+
+This reverts commit 5d0d3e0264e7b4752360dd3f5bc763b2c6eda8fd.
+
+* Print info about OpenGL drivers
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Revert ""Revert ""run tests without xdist""""
+
+This reverts commit b6d2510c5275280d6fcd06839324661e27a901e7.
+
+* test
+
+* test
+
+* test
+
+* test
+
+* Revert ""Revert ""Revert ""run tests without xdist""""""
+
+This reverts commit 3a15beeea262a0976c0947553f642426b4e16706.
+
+* Revert ""specifically run tests/opengl tests""
+
+This reverts commit a19809c3497061ce8b8db961ea0487e2cfd9c597.
+
+* test-arm: prefer currently active python
+
+* Revert ""fix version of moderngl-window to <=2.4.1""
+
+This reverts commit ef9430712c36ab62d261d9ae2ed448ca736b7dbe.
+
+* regenerate lockfile
+
+* run module doctests with -v
+
+* fixed config-leaking doctests
+
+* ensure that correct pytest is run
+
+* try to investigate segfault closer
+
+* fixed pre-commit issue
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* pytest apparently does not run testsetup/testcleanup blocks, revert
+
+* duplicate config import
+
+* remove debug output from pipeline
+
+* fixed doctests
+
+Co-authored-by: Naveen M K <naveen521kk@gmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>",['0835d4b39e0042538eae14098bef1d579332f70e'],False,"['ci.yml', 'conftest.py', 'opengl_vectorized_mobject.py', 'vectorized_mobject.py', 'poetry.lock']"
+9d1f066d637cb15baea10e6907ab85efff8fb36f,"Migrate more `os.path` to `pathlib` (#2980)
+
+* Migrate more `os.path` to `pathlib`
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix type errors with recent pathlib code
+
+* pathlib fixes
+
+* more pathlib fixes
+
+* remove unused imports introduced by pathlib migration
+
+* convert `open()` calls to pathlib
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Migrate tex_file_writing to pathlib
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* converted more old code to pathlib, and fixed a bug in module_ops
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix test failures
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix test failures
+
+* Apply suggestions from code review
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['3c172e2a8a0738aa8e700ee44eeb9579e1dcf860'],False,"['utils.py', 'group.py', 'commands.py', 'group.py', 'svg_mobject.py', 'code_mobject.py', 'shader.py', 'shader_wrapper.py', 'scene_file_writer.py', 'section.py', 'manim_directive.py', 'file_ops.py', 'images.py', 'ipython_magic.py', 'module_ops.py', 'tex.py', 'tex_file_writing.py', 'dev_changelog.py', 'extract_frames.py', 'test_cli_flags_opengl.py', 'test_cli_flags.py']"
+ab57a6eb35949c8d4c695355a30b5837d992f3ee,"Frame comparison pixel threshold (#3053)
+
+* implemented threshold for number of pixel value errors
+
+* fix implementation, throw proper warning
+
+* added test for pixel value error threshold
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* remove forgotten debug print
+
+* introduce constants for frame_comparison tolerance
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* rename constant
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>",['2044ef8abcd4bffe75b053c9eebd57ac7214498c'],False,"['_frames_testers.py', 'pixel_error_threshold.npz', 'test_utils.py']"
+c78bd8a22bab710aae68743718755c8f894477ee,"fix bug in setting self.label_constructor in NumberLine.add_labels (#3015)
+
+* fix bug in setting self.label_constructor in NumberLine.add_labels
+
+* fix label_constructor in NumberLine.add_labels()
+
+* fix label_constructor in NumberLine.add_labels()
+
+* improved docstring + type hints
+
+---------
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+Co-authored-by: Tristan Schulz <mrdiverlp@gmail.com>",['84e07eaf77f1297e6be45ca9ff38778c6e3b2f5c'],False,['number_line.py']
+cbf6726f89972580cbb64e117da56f643919857d,"Made docbuild errors easier to debug + fixed error from changed exception class (#3229)
+
+* Make errors during docbuild somewhat easier to debug
+
+* fix an issue with docbuild under py3.10+",['b9367a2fb7593b42af18b2bd499035b24dffc002'],False,"['manim_directive.py', 'hashing.py']"
+7dd9bb6eb9f9a641645e49ff6fba68b6fdf61cab,"Minor fix, return self (#3236)
+
+* Small fix in the code of ArcBrace
+
+Avoiding the creation of an Arc object at import time
+
+* Replace last `os.path` occurrencies by `pathlib` (#3224)
+
+This resolves [last
+comment](https://github.com/ManimCommunity/manim/issues/485#issuecomment-1523016291)
+of #485.
+
+Removes one line of dead code.
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* Made docbuild errors easier to debug + fixed error from changed exception class (#3229)
+
+* Make errors during docbuild somewhat easier to debug
+
+* fix an issue with docbuild under py3.10+
+
+* Make set_resampling_algorithm() return self
+
+---------
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+Co-authored-by: Adrien ANTON LUDWIG <42720099+Adrien-ANTON-LUDWIG@users.noreply.github.com>",['bc6ff341d78cd03ef30b61f88a362abc904f81e9'],False,['image_mobject.py']
+efd6474b7660c3aa9712359aee244872664488cd,"Added new ``manim checkhealth`` CLI subcommand (#3299)
+
+* added new checkhealth subcommand
+
+* basic checkhealth tests
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* check -> healthcheck
+
+* more helpful test output on checkhealth fail
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* callable -> Callable
+
+* fix executable check for windows
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fixed type
+
+* shutil already returns .exe in case it is there
+
+* debug commit ...
+
+* do proper debug commit for windows ...
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix failing test if executable is batch file
+
+* added more helpful (?) recommendations on failed tests
+
+* allow rendering ManimBanner from prerendered SVG path
+
+* improved test scene, actually test text / latex
+
+* added debug info on python executable
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* remove debug test again
+
+* move SCALE_FACTOR_PER_FONT_POINT to constants
+
+* access constants via module in logo.py
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* replaced other occurrence of 48 / 960
+
+---------
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>",['2c74f62fea732843666400203e91a8ca65704fae'],False,"['__main__.py', '__init__.py', 'checks.py', 'commands.py', 'constants.py', 'logo.py', 'tex_mobject.py', 'test_commands.py']"
+82e55b5da2cc3e12915f0ba9fccbf830a49aca7d,"Adding :class: ManimColor to manim and converting all types (#3020)
+
+* first draft of color class + starting library conversion
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* changed everything to Manim color todo: figure out circular dependency in utils
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* first working draft of new color version
+
+* resolving conflicts
+
+* resolving conflicts
+
+* resolving conflicts
+
+* resolving conflicts
+
+* resolving conflicts
+
+* changed default internal value of ManimColor to np.ndarray[float]
+
+* starting to fix tests
+
+* fixed more tests and changed precision of manim color
+
+* removed premature color conversion
+
+* fixed some more tests
+
+* final test changes
+
+* fix doctests
+
+* fix for 3.8
+
+* fixing ManimColor string representation
+
+* removing some unneccesary conversions
+
+* moved community constants to manim_colors.py and added more color standards
+
+* broke some too long lines
+
+* added fallback: check whether passed object has get_hex method
+
+* actually fix _internal_from_string
+
+* added hsv support
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* remove dependency on colour
+
+* fixed DARK_EARTH being assigned twice
+
+* fixed double assignment
+
+* remove more duplicated colour names
+
+* raise NotImplementedError for ManimColor.gradient
+
+* removed unused import
+
+* remove superfluous ManimColor import
+
+* fix circular import, remove dependency of space_ops on config
+
+* one more Color -> ParseableManimColor
+
+* removed one *-import
+
+* somewhat unrelated fixed type hint
+
+* -1 *-import
+
+* fixed change of logic in CoordinateSystem.get_graph_label
+
+* removed debug print; fixed type hint in mobject.py
+
+* some fixes and improvements to text_mobject.py
+
+* update three_dimensions
+
+* fixes for rendered documentation of utils.color.*
+
+* substantial improvements to documentation, including new Sphinx directive
+
+Co-authored-by: MrDiver <mrdiverlp@gmail.com>
+
+* Rewrite of the sphinx directive to use docutils nodes and 2 column design
+
+* I just had to do it
+
+* Improve the color table
+
+* minor cleanup
+
+* fixed ColorOverview example
+
+* documentation improvements
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Update manim/mobject/mobject.py
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fix flake8 errors
+
+* Removed test in test_text_mobject
+
+* Improved Documentation of core.py and added private members in sphinx so that internal methods can be documented
+
+* Change color types of labeled.py
+
+* removed some unused imports
+
+* turned docstring into comment
+
+* _colors  -> _all_manim_colors; move to manim_color module
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* fixed typing
+
+* rewrite import
+
+---------
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+Co-authored-by: Naveen M K <naveen521kk@gmail.com>",['59ff3271a5db7414fe50f590ebce570f4d0a0f71'],False,"['.mypy.ini', 'class.rst', 'conf.py', 'utils.py', 'changing.py', 'creation.py', 'indication.py', 'camera.py', 'communitycolors.py', 'arc.py', 'labeled.py', 'line.py', 'polygram.py', 'shape_matchers.py', 'coordinate_systems.py', 'probability.py', 'mobject.py', 'opengl_mobject.py', 'opengl_vectorized_mobject.py', 'table.py', 'tex_mobject.py', 'text_mobject.py', 'three_dimensions.py', 'image_mobject.py', 'point_cloud_mobject.py', 'vectorized_mobject.py', 'vector_field.py', 'import_plugins.py', 'vector_space_scene.py', 'color.py', 'AS2700.py', 'BS381.py', 'X11.py', 'XKCD.py', '__init__.py', 'core.py', 'manim_colors.py', 'autocolor_directive.py', 'manim_directive.py', 'space_ops.py', 'poetry.lock', 'pyproject.toml', 'test_svg_mobject.py', 'test_numbers.py', 'test_text_mobject.py', 'test_stroke.py', 'test_color.py', 'test_manim_color.py', 'test_color_opengl.py', 'test_stroke_opengl.py', 'test_svg_mobject_opengl.py', 'test_text.py']"
+76b4061aa6d8b289b85bb517a4e15d645bf97792,"Fix: Fixed a bug in regards to empty inputs in AddTextLetterByLetter class.  (#3404)
+
+* Misc: Just a class to test out some functions
+
+* Fix: Fixed a bug in AddTextLetterByLetter class
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Fix: Adjusted changes according to Ben's comments
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Fix: Removed imports
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Feat: Adjusted changes to AddTextLetterByLetter
+
+* Feat: Added test_creation
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+---------
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['b04869579b63d23a072845d86585f254dec78e69'],False,"['creation.py', 'test_creation.py']"
+02391d71ac5e80f80312369fcebc5f7032a9bd5c,"Added support for Manim type aliases in Sphinx docs + Added new TypeAliases (#3484)
+
+* Updated manim.typing and included TypeAliases in docs.source.conf
+
+* Added Vector2 and reorganized manim_type_aliases
+
+* Fixed __all__ exports for __all__ of manim
+
+* Update manim/cli/render/global_options.py
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Draft of new typing docs and new autotyping directive
+
+* Changed vertical bars to Unions
+
+* Updated poetry.lock
+
+* Created custom file parser for manim.typing
+
+* Got reST parser going
+
+* Updated autotyping and parsing
+
+* Update parsing
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Added code_block toggle
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Added typings to directives
+
+* Renamed Tuple to tuple in manim.typings
+
+* Added missing docs for type aliases
+
+* Fixed exponent typo in ManimInt
+
+* Hyperlinks to types work - removed Module Attributes section
+
+* Removed Unused Import
+
+Remove ``import re``
+
+* Added freeglut-devel to workflows for Linux
+
+Hopefully (?) fix the GLU import error
+
+* Fix package name
+
+* Add support for Type Aliases section in every module - Renaming of Vector types
+
+* Add/fix docs for directive, parser and others
+
+* Fixed alias typo in module_parsing
+
+* Fix decode/import bugs, fix minor details in docs
+
+* Added missing docs for utils.docbuild and utils.testing
+
+* Sort alphabetically entries in utilities_misc.rst
+
+* Address review comments, add notes about Vector and hyperlinks inside definition blocks
+
+---------
+
+Co-authored-by: MrDiver <mrdiverlp@gmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: JasonGrace2282 <aarush.deshpande@gmail.com>",['4a963c45ab6173c9c04cc99892ad24b4ae559458'],False,"['ci.yml', 'module.rst', 'conf.py', 'development.rst', 'utilities_misc.rst', '__init__.py', 'cli_colors.py', 'logger_utils.py', 'utils.py', 'speedmodifier.py', 'group.py', 'checks.py', 'commands.py', 'commands.py', 'commands.py', 'commands.py', 'ease_of_access_options.py', 'global_options.py', 'output_options.py', 'render_options.py', 'constants.py', 'gui.py', 'arc.py', 'boolean_ops.py', 'line.py', 'tips.py', 'coordinate_systems.py', 'mobject.py', 'opengl_compatibility.py', 'opengl_geometry.py', 'opengl_image_mobject.py', 'opengl_mobject.py', 'opengl_point_cloud_mobject.py', 'opengl_surface.py', 'opengl_three_dimensions.py', 'opengl_vectorized_mobject.py', 'brace.py', 'code_mobject.py', 'numbers.py', 'text_mobject.py', 'three_d_utils.py', 'three_dimensions.py', 'image_mobject.py', 'point_cloud_mobject.py', 'vectorized_mobject.py', 'cairo_renderer.py', 'opengl_renderer.py', 'opengl_renderer_window.py', 'shader_wrapper.py', 'vectorized_mobject_rendering.py', 'section.py', 'typing.py', 'caching.py', 'core.py', '__init__.py', 'autoaliasattr_directive.py', 'autocolor_directive.py', 'manim_directive.py', 'module_parsing.py', 'exceptions.py', 'family.py', 'family_ops.py', 'hashing.py', 'ipython_magic.py', 'module_ops.py', 'opengl.py', 'space_ops.py', '__init__.py', 'tex_file_writing.py', 'poetry.lock', 'pyproject.toml', 'simple_scenes.py']"
+c025be65164622b6a5feb74b4faf620adbcc8422,"Fix bug in :class:`.VMobjectFromSVGPath` (#3677)
+
+* Fixes #3676
+
+* Update manim/mobject/svg/svg_mobject.py
+
+Co-authored-by: adeshpande <110117391+JasonGrace2282@users.noreply.github.com>
+
+* Fixed problem and added test
+
+---------
+
+Co-authored-by: adeshpande <110117391+JasonGrace2282@users.noreply.github.com>",['ef675b64f063e1b44200d312a1c0a505be1ee068'],False,"['svg_mobject.py', 'test_svg_mobject.py', 'A.svg']"
+1ce3edd97af2fd2e376516da9e6e332e766df8b4,"AnimationGroup: optimized interpolate() and fixed alpha bug on finish() (#3542)
+
+* Optimized AnimationGroup computation of start-end times with lag ratio
+
+* Added extra comment for init_run_time
+
+* Added full path to imports in composition.py
+
+* Optimized AnimationGroup.interpolate
+
+* Fixed final bugs
+
+* Removed accidental print
+
+* Final fix to AnimationGroup.interpolate
+
+* Fixed animations being skipped unintentionally
+
+* Addressed requested changes
+
+---------
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>",['98641a2f82afc90961708dc9983429f36293857c'],False,"['animation.py', 'composition.py', 'test_composition.py', 'test_composition_opengl.py']"
+0d67dcdc6eaf798da708a36a62d36bd42750678d,"Fix assertions and improve error messages when adding submobjects (#3756)
+
+* Optimized AnimationGroup computation of start-end times with lag ratio
+
+* Added extra comment for init_run_time
+
+* Added full path to imports in composition.py
+
+* Optimized AnimationGroup.interpolate
+
+* Fixed final bugs
+
+* Removed accidental print
+
+* Final fix to AnimationGroup.interpolate
+
+* Fixed animations being skipped unintentionally
+
+* Fix and improve Mobject assertions when adding submobjects
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* Update examples in Mobject.add() and OpenGLMobject.add() docstrings
+
+* overriden -> overridden
+
+* Joined string in OpenGLMobject error message
+
+* Address requested changes
+
+* OpenGLVMObjects -> OpenGLVMobjects
+
+* Use tuplify in VGroup.__setitem__()
+
+---------
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>",['739958514f7d3bb680651c66e25a68fbdf4f40f8'],False,"['mobject.py', 'opengl_mobject.py', 'opengl_vectorized_mobject.py', 'vectorized_mobject.py', 'test_mobject.py', 'test_vectorized_mobject.py', 'test_opengl_mobject.py', 'test_opengl_vectorized_mobject.py']"
+f1ce5122253882a20b6714adf728eccfa41162e9,"Fixed behavior of `config.background_opacity < 1` and duplicated log messages (#3680)
+
+* Fixes #3614
+
+Setting background_transparency=0.0 should have the same effect than
+setting transparent=True. The output format must be compatible
+with transparency (.mov, .webm). Otherwise ffpmeg fails.
+
+This patch ensures that background_transparency=0.0 triggers the
+change of the output format. Also a WARNING is raised about
+the change in the output format.
+
+I want to thank @SirJamesClarkMaxwell for inspiring me to tackle
+this issue.
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* test config.background_opacity < 1
+
+* fix config behavior for config.background_opacity < 1
+
+* fix logger messages being emitted twice
+
+* actually cleanup usage of loggers, remove logger-imports; black
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* dry_run fixture
+
+* remove debug print
+
+* applied suggestion from review
+
+* remove custom fixture from test_deprecation, use manim_caplog
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+---------
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>",['205f746bbdd28024971b59111c218b8e41176e14'],False,"['logger_utils.py', 'utils.py', 'global_options.py', 'render_options.py', 'shader_wrapper.py', 'deprecation.py', '_frames_testers.py', 'conftest.py', 'graphical_units.py', 'test_animation.py', 'test_unit_geometry.py', 'test_deprecation.py', 'test_config.py']"
+d6dac76fa307837bcdeb18abcc3a32ee162307e9,"Change flake8-comprehensions and flake8-bugbear to ruff (#3882)
+
+* Add config for bugbear/comprehensions
+
+note: flake8-comprehensions has 0 changes to the files
+
+* Safe fixes from pre-commit
+
+* Manual changes to make pre-commit pass
+
+* Remove deps from pyproject",['3aad3553d8750c3bc203ac1555591c42c1bdccf3'],False,"['.pre-commit-config.yaml', 'utils.py', 'group.py', 'default_group.py', 'arc.py', 'boolean_ops.py', 'graph.py', 'opengl_point_cloud_mobject.py', 'brace.py', 'text_mobject.py', 'point_cloud_mobject.py', 'scene.py', 'three_d_scene.py', 'hashing.py', '_frames_testers.py', '_test_class_makers.py', 'frames_comparison.py', 'tex.py', 'pyproject.toml']"
+11ea41633c7a3d2d8ea15775fbf106c15195064c,"Significantly reduce rendering time with a separate thread for writing frames to stream (#3888)
+
+* Add separate thread for writing frames to stream
+
+* [pre-commit.ci] pre-commit autoupdate (#3889)
+
+updates:
+- [github.com/astral-sh/ruff-pre-commit: v0.5.4 → v0.5.5](https://github.com/astral-sh/ruff-pre-commit/compare/v0.5.4...v0.5.5)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+* Replace the TypeError message code in the _typecheck_input method in … (#3890)
+
+* Replace the TypeError message code in the _typecheck_input method in the DrawBorderThenFill class.
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+---------
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+* Remove print statements used for debugging
+
+* Remove writing process termination
+
+- This is probably leftover from back when manim used subprocess to
+  write frames to FFmpeg via stdin
+
+* Add type hints to modified methods & instance vars
+
+* Fix inline code in docstring & type hint for queue
+
+---------
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Irvanal Haq <125118413+irvanalhaq9@users.noreply.github.com>",['17e5a77b0943589b2cce10fce68fd56a1681859e'],False,['scene_file_writer.py']
+d029beb2b73de58d4958ab05df2dc1c92fdded7d,"bugfix: convert non-`.wav`/`.raw` files to `.wav` before passing to pydub (#3832)
+
+pydub will try to use `ffmpeg` for non-`.wav`/`.raw` files, which is no longer a dependency of Manim. To avoid this, we convert non `.wav`/`.raw` files into `.wav` files before passing it to pydub.
+
+---------
+
+Co-authored-by: JasonGrace2282 <aarush.deshpande@gmail.com>",['99ce78fd60a07f894e7b62221afaf26e14e1a470'],False,"['scene_file_writer.py', 'click.mp3', 'test_file_writer.py']"
+862504fa4520828500e044ddeefdd9eec84b9b78,"Added `ConvexHull`, `ConvexHull3D`, `Label` and `LabeledPolygram` (#3933)
+
+* initial commit
+
+* Update labeled.py
+
+* general fixes
+
+fixed added utils (i.e., Incomplete ordering and Explicit returns mixed with implicit), added :quality: high to docstrings, made ConvexHullExample determined
+
+* typing
+
+added typing to `qhull.py` and `polylabel.py` for debugging. simplified test cases for `ConvexHull` and `ConvexHull3D` and rewrote control data. added tip to LabeledPolygon documentation.
+
+* response to feedback
+
+added `label_config` and `box_config` and `frame_config` for additional configuration options and cleaner interface. added `InternalPointND` and `PointND ` and `InternalPointND_Array` and `PointND_Array` for typing. updated docstring.
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* typing
+
+* Update manim/mobject/geometry/labeled.py
+
+Co-authored-by: Francisco Manríquez Novoa <49853152+chopan050@users.noreply.github.com>
+
+* Update manim/mobject/geometry/labeled.py
+
+Co-authored-by: Francisco Manríquez Novoa <49853152+chopan050@users.noreply.github.com>
+
+* typing, docstring, class name
+
+* typing
+
+---------
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Francisco Manríquez Novoa <49853152+chopan050@users.noreply.github.com>",['fac0aa5218d88c867f9a13928fbd6dfc09fb2ecf'],False,"['labeled.py', 'polygram.py', 'polyhedra.py', 'polylabel.py', 'qhull.py', 'ConvexHull.npz', 'LabeledPolygram.npz', 'ConvexHull3D.npz', 'test_geometry.py', 'test_polyhedra.py']"
+e74933049e7871832c1a623e128ef7bf82e2b8a4,"Add support for Python 3.13 (#3967)
+
+* Allow python 3.13
+
+* Specify scipy more strictly
+
+* try using 3rd-party audioop package
+
+* debug: wrap context generation in try-block
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+for more information, see https://pre-commit.ci
+
+* remove audioop-lts, update dependencies
+
+* add wrapt pre-release (wheels!)
+
+* update lockfile
+
+* CI, windows: try installing all tinytex packages at once
+
+* tmp: verbosity of pytest
+
+* tmp: pass -n 0 for testing
+
+* tmp: disable pytest-xdist
+
+* remove deprecated poetry installer option
+
+* try running tests via uv-provided env
+
+* tmp: run -> run --no-project
+
+* try --full-trace
+
+* try running tests via python -v ...
+
+* tmp: test import of suspicious modules
+
+* test click/cloup
+
+* ci: back to poetry
+
+* ci: disable pytest plugins altogether
+
+* update lockfile
+
+* ci: upgrade pytest
+
+* remove all flags from pytest call
+
+* ci: move conftest, temporarily disable test header
+
+* fix test fixture
+
+* try with more recent version of pytest-xdist
+
+* loadfile -> loadscope
+
+* explicitly test pytest for non-manim module
+
+* some proper tests
+
+* only keep fixtures in new conftest.py
+
+* remove all non-necessary fixtures
+
+* try a literal try/except in fixture file
+
+* simplify tests further
+
+* try and explicitly trigger non-silent errors
+
+* Revert ""try and explicitly trigger non-silent errors""
+
+This reverts commit 35b862d4836b89531a4a9450b37f8b440da215b0.
+
+* more pytest debug output
+
+* test whether manim can be imported correctly
+
+* test with upgraded numpy
+
+* revert all sorts of debug changes, attempt clean pytest run
+
+* fix whitespace
+
+* pre-commit hooks
+
+* apply config fixture to render tests
+
+* let config fixture ensure renderer is set to cairo
+
+* update doctests for numpy>=2.0
+
+* missed some
+
+* upgrade required numpy version, revert separate treatment of numpy in ci
+
+* upgraded moderngl-window to latest
+
+* more delicate versioning of numpy dependency
+
+---------
+
+Co-authored-by: Benjamin Hackl <devel@benjamin-hackl.at>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>",['f81d5713b3cb565e23bcb9bbfe19d547d040c122'],False,"['ci.yml', 'conftest.py', 'tips.py', 'number_line.py', 'mobject.py', 'bezier.py', 'simple_functions.py', 'space_ops.py', 'poetry.lock', 'pyproject.toml', 'conftest.py', 'test_file_writer.py']"
+95b4625ef28210b666b0f81d741f56795c65ef0e,"Fix of ImageMobject opacity bug (#4089)
+
+* Fix issue 4072.
+
+* Added a unittest for the interpolate function in utils/bezier.py",['def7241db33a68e61bb02dcaff58fcc7306ecf92'],False,"['bezier.py', 'test_bezier.py']"
